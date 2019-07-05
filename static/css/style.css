@@ -10,12 +10,18 @@
   font-family: OpenB;
   src: url(../fonts/OpenSans-Bold.ttf);
 }
+ul.log {
+    list-style: none!important;
+}
 
 .container.height {
     padding-top: 5%;
 }
 .logo img {
     width: 132px;
+}
+ul.log a {
+    color: #4798b1 !important;
 }
 a.nav-link.logo img {
     border-radius: 50px;
