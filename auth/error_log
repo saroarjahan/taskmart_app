@@ -1,0 +1,42 @@
+[04-Jul-2019 08:32:41 America/New_York] PHP Fatal error:  Uncaught Auth0\SDK\Exception\CoreException: Invalid state in /home/snapkdlp/taskmart.online/auth/vendor/auth0/auth0-php/src/Auth0.php:536
+Stack trace:
+#0 /home/snapkdlp/taskmart.online/auth/vendor/auth0/auth0-php/src/Auth0.php(458): Auth0\SDK\Auth0->exchange()
+#1 /home/snapkdlp/taskmart.online/auth/index.php(32): Auth0\SDK\Auth0->getUser()
+#2 {main}
+  thrown in /home/snapkdlp/taskmart.online/auth/vendor/auth0/auth0-php/src/Auth0.php on line 536
+[04-Jul-2019 08:33:34 America/New_York] PHP Fatal error:  Uncaught Auth0\SDK\Exception\CoreException: Invalid state in /home/snapkdlp/taskmart.online/auth/vendor/auth0/auth0-php/src/Auth0.php:536
+Stack trace:
+#0 /home/snapkdlp/taskmart.online/auth/vendor/auth0/auth0-php/src/Auth0.php(458): Auth0\SDK\Auth0->exchange()
+#1 /home/snapkdlp/taskmart.online/auth/index.php(32): Auth0\SDK\Auth0->getUser()
+#2 {main}
+  thrown in /home/snapkdlp/taskmart.online/auth/vendor/auth0/auth0-php/src/Auth0.php on line 536
+[04-Jul-2019 08:34:25 America/New_York] PHP Fatal error:  Uncaught Auth0\SDK\Exception\CoreException: Invalid state in /home/snapkdlp/taskmart.online/auth/vendor/auth0/auth0-php/src/Auth0.php:536
+Stack trace:
+#0 /home/snapkdlp/taskmart.online/auth/vendor/auth0/auth0-php/src/Auth0.php(458): Auth0\SDK\Auth0->exchange()
+#1 /home/snapkdlp/taskmart.online/auth/index.php(32): Auth0\SDK\Auth0->getUser()
+#2 {main}
+  thrown in /home/snapkdlp/taskmart.online/auth/vendor/auth0/auth0-php/src/Auth0.php on line 536
+[04-Jul-2019 08:34:33 America/New_York] PHP Fatal error:  Uncaught Auth0\SDK\Exception\CoreException: Invalid state in /home/snapkdlp/taskmart.online/auth/vendor/auth0/auth0-php/src/Auth0.php:536
+Stack trace:
+#0 /home/snapkdlp/taskmart.online/auth/vendor/auth0/auth0-php/src/Auth0.php(458): Auth0\SDK\Auth0->exchange()
+#1 /home/snapkdlp/taskmart.online/auth/index.php(32): Auth0\SDK\Auth0->getUser()
+#2 {main}
+  thrown in /home/snapkdlp/taskmart.online/auth/vendor/auth0/auth0-php/src/Auth0.php on line 536
+[04-Jul-2019 08:40:00 America/New_York] PHP Fatal error:  Uncaught Auth0\SDK\Exception\CoreException: Invalid state in /home/snapkdlp/taskmart.online/auth/vendor/auth0/auth0-php/src/Auth0.php:536
+Stack trace:
+#0 /home/snapkdlp/taskmart.online/auth/vendor/auth0/auth0-php/src/Auth0.php(458): Auth0\SDK\Auth0->exchange()
+#1 /home/snapkdlp/taskmart.online/auth/index.php(32): Auth0\SDK\Auth0->getUser()
+#2 {main}
+  thrown in /home/snapkdlp/taskmart.online/auth/vendor/auth0/auth0-php/src/Auth0.php on line 536
+[04-Jul-2019 08:40:35 America/New_York] PHP Fatal error:  Uncaught Auth0\SDK\Exception\CoreException: Invalid state in /home/snapkdlp/taskmart.online/auth/vendor/auth0/auth0-php/src/Auth0.php:536
+Stack trace:
+#0 /home/snapkdlp/taskmart.online/auth/vendor/auth0/auth0-php/src/Auth0.php(458): Auth0\SDK\Auth0->exchange()
+#1 /home/snapkdlp/taskmart.online/auth/index.php(32): Auth0\SDK\Auth0->getUser()
+#2 {main}
+  thrown in /home/snapkdlp/taskmart.online/auth/vendor/auth0/auth0-php/src/Auth0.php on line 536
+[04-Jul-2019 08:41:18 America/New_York] PHP Fatal error:  Uncaught Auth0\SDK\Exception\CoreException: Invalid state in /home/snapkdlp/taskmart.online/auth/vendor/auth0/auth0-php/src/Auth0.php:536
+Stack trace:
+#0 /home/snapkdlp/taskmart.online/auth/vendor/auth0/auth0-php/src/Auth0.php(458): Auth0\SDK\Auth0->exchange()
+#1 /home/snapkdlp/taskmart.online/auth/index.php(32): Auth0\SDK\Auth0->getUser()
+#2 {main}
+  thrown in /home/snapkdlp/taskmart.online/auth/vendor/auth0/auth0-php/src/Auth0.php on line 536

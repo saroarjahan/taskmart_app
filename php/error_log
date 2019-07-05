@@ -1,0 +1,43 @@
+[04-Jul-2019 11:17:56 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/snapkdlp/taskmart.online/php/Db.php on line 27
+[04-Jul-2019 11:17:56 America/New_York] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/snapkdlp/taskmart.online/php/Db.php on line 28
+[04-Jul-2019 11:17:56 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/snapkdlp/taskmart.online/php/Db.php on line 47
+[04-Jul-2019 11:17:56 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/snapkdlp/taskmart.online/php/Db.php:62
+Stack trace:
+#0 /home/snapkdlp/taskmart.online/php/gettasks.php(6): Db->select('SELECT * from t...')
+#1 {main}
+  thrown in /home/snapkdlp/taskmart.online/php/Db.php on line 62
+[04-Jul-2019 11:17:58 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/snapkdlp/taskmart.online/php/Db.php on line 27
+[04-Jul-2019 11:17:58 America/New_York] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/snapkdlp/taskmart.online/php/Db.php on line 28
+[04-Jul-2019 11:17:58 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/snapkdlp/taskmart.online/php/Db.php on line 47
+[04-Jul-2019 11:17:58 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/snapkdlp/taskmart.online/php/Db.php:62
+Stack trace:
+#0 /home/snapkdlp/taskmart.online/php/gettasks.php(6): Db->select('SELECT * from t...')
+#1 {main}
+  thrown in /home/snapkdlp/taskmart.online/php/Db.php on line 62
+[04-Jul-2019 11:20:43 America/New_York] PHP Notice:  Undefined offset: 0 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 21
+[04-Jul-2019 11:20:43 America/New_York] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''NA','NA','NA','NA','5d1e194a65925','{\"ip\":\"130.231.165.243\",\"useragent\":\' at line 1
+[04-Jul-2019 11:20:52 America/New_York] PHP Notice:  Undefined offset: 0 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 21
+[04-Jul-2019 11:20:52 America/New_York] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''NA','NA','NA','NA','5d1e194a65925','{\"ip\":\"130.231.165.243\",\"useragent\":\' at line 1
+[04-Jul-2019 11:21:03 America/New_York] PHP Notice:  Undefined offset: 0 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 21
+[04-Jul-2019 11:21:03 America/New_York] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''NA','NA','NA','NA','5d1e194a65925','{\"ip\":\"130.231.165.243\",\"useragent\":\' at line 1
+[04-Jul-2019 11:24:56 America/New_York] PHP Notice:  Undefined offset: 0 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 21
+[04-Jul-2019 11:24:56 America/New_York] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''NA','NA','NA','NA','5d1e194a65925','{\"ip\":\"130.231.165.243\",\"useragent\":\' at line 1
+[04-Jul-2019 11:26:14 America/New_York] PHP Notice:  Undefined offset: 0 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 21
+[04-Jul-2019 11:26:14 America/New_York] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''NA','NA','NA','NA','5d1e1a9522f27','{\"ip\":\"130.231.165.243\",\"useragent\":\' at line 1
+[04-Jul-2019 11:26:34 America/New_York] PHP Notice:  Undefined offset: 0 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 21
+[04-Jul-2019 11:26:34 America/New_York] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''NA','NA','NA','NA','5d1e1a9522f27','{\"ip\":\"130.231.165.243\",\"useragent\":\' at line 1
+[04-Jul-2019 11:28:42 America/New_York] PHP Notice:  Undefined offset: 0 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 21
+[04-Jul-2019 11:28:42 America/New_York] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''NA','NA','NA','NA','5d1e1b29da039','{\"ip\":\"130.231.165.243\",\"useragent\":\' at line 1
+[04-Jul-2019 11:30:21 America/New_York] PHP Notice:  Undefined offset: 0 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 21
+[04-Jul-2019 11:30:21 America/New_York] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''NA','NA','NA','NA','5d1e1b8c8d87a','{\"ip\":\"130.231.165.243\",\"useragent\":\' at line 1
+[04-Jul-2019 11:32:43 America/New_York] PHP Notice:  Undefined index: task_id in /home/snapkdlp/taskmart.online/php/putprogress.php on line 7
+[04-Jul-2019 11:32:43 America/New_York] PHP Notice:  Undefined index: user_id in /home/snapkdlp/taskmart.online/php/putprogress.php on line 8
+[04-Jul-2019 11:32:43 America/New_York] PHP Notice:  Undefined index: S1 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 9
+[04-Jul-2019 11:32:43 America/New_York] PHP Notice:  Undefined index: S2 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 10
+[04-Jul-2019 11:32:43 America/New_York] PHP Notice:  Undefined index: S3 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 11
+[04-Jul-2019 11:32:43 America/New_York] PHP Notice:  Undefined index: S4 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 12
+[04-Jul-2019 11:32:43 America/New_York] PHP Notice:  Undefined index: session_id in /home/snapkdlp/taskmart.online/php/putprogress.php on line 13
+[04-Jul-2019 11:32:43 America/New_York] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[04-Jul-2019 11:32:43 America/New_York] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''','0','','','','','','{\"ip\":\"130.231.165.243\",\"useragent\":\"Mozilla\\/5.0' at line 1
+[04-Jul-2019 11:38:16 America/New_York] PHP Notice:  Undefined offset: 0 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 21
+[04-Jul-2019 11:38:16 America/New_York] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''NA','NA','NA','NA','5d1e1d677bd65','{\"ip\":\"130.231.165.243\",\"useragent\":\' at line 1

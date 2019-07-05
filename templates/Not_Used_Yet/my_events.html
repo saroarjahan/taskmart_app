@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Team Sports</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css"> 
+    <!--datepicker source-->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript" src="{% static 'date/jquery.timepicker.js' %}"></script>
+	<link rel="stylesheet" type="text/css" href="{% static 'date/jquery.timepicker.css' %}" />
+	<script type="text/javascript" src="{% static 'date/bootstrap-datepicker.js' %}"></script>
+	<link rel="stylesheet" type="text/css" href="{% static 'date/bootstrap-datepicker.css' %}"/>
+	<script src="http://jonthornton.github.io/Datepair.js/dist/datepair.js"></script>
+	<script src="http://jonthornton.github.io/Datepair.js/dist/jquery.datepair.js"></script>
+    <!--vue.js source-->
+	<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+	<!--claender source-->
+	<link href="{% static 'calender/fullcalendar.min.css' %}" rel='stylesheet' />
+    <script src="{% static 'calender/fullcalendar.min.js' %}"></script>   	
+    </style>
+</head>
+<body class="login">
+	   <div class="container wid100">
+	       <div class="container">
+			   	<div class="row studnet_nav">
+			   	             <div class="col-sm-8">            
+									     <ul class="nav nav-pills">
+									     	  <li class="nav-item">
+											    <a class="nav-link" href='{% url "student"%}'><img src="../static/css/image/logo.png"></a>
+											  </li>
+											  <li class="nav-item">
+											    <a class="nav-link" href='{% url "student"%}'>All Events</a>
+											  </li>
+											  											  <li class="nav-item">
+											    <a class="nav-link" href='{% url "student"%}'>All Team</a>
+											  </li>
+											  											  </li>
+											  											  <li class="nav-item">
+											    <a class="nav-link" href='{% url "student"%}'>All Member</a>
+											  </li>
+											  <li class="nav-item">
+											    <a class="nav-link" href='{% url "quick_appointmnet"%}'>My Events</a>
+											  </li>
+											  <li class="nav-item">
+											    <a class="nav-link" href='{% url "quick_appointmnet"%}'>Add Event</a>
+											  </li>
+										  </ul>	                             
+			                  </div>
+
+			                 <div class="col-sm-4">
+								     <ul class="nav nav-pills">
+										  <li class="nav-item">
+										    <p>Wecome: {User Name}</p> 
+										  </li>
+										  <li class="nav-item">
+										    <a class="nav-link" href='{% url "logout"%}'>Log Out</a>
+										  </li>
+									  </ul>	     
+				       		 </div>
+				  </div>
+			</div>
+    </div>
+
+    <section class="events">
+
+    	<div class="container">
+
+    		<div class="single_event">
+
+		    		<div class="row">
+						    <div class="col-12 event">
+						      <p class="event_title">Torstaisäbä</p>
+						    </div>
+					</div>
+
+					<div class="row event-sub">
+						    <div class="col-2 date">
+						      <p class="month">April</p>
+						      <p class="month day">11</p>
+						    </div>
+						    <div class="col-7 event-sub-title">
+						      <p class="event_title_sub">Tänään klo 20:3</p>
+						      <p class="event_description">! NOTE! Registration of the deputies on Wednesdays after 8 pm. MAX. IN 22 (20 on the field + 2 goalkeepers).
+                              Replacement fee 6 €, payment to account FI74 5490 0720 1282 02 OR transfer / mobilepay: 0404190475 / Henrik Turtinen</p>
+                             
+                               <ul class="inline">
+                               	<span>Participant:</span>
+                              	<li>Sampoo</li>
+                              	<li>Saroar</li>
+                              	<li>Markuz</li>
+                              </ul>
+						    </div>
+						    <div class="col-3 join">
+						      <p class="event_in eidt"><i class="far fa-edit"></i> Edit Event</p>
+						      <p class="event_in eidt"><i class="fa fa-trash" aria-hidden="true"></i> Delete Event</p>
+						    </div>
+					</div>		
+    		</div>
+
+
+    		<div class="single_event">
+
+		    		<div class="row">
+						    <div class="col-12 event">
+						      <p class="event_title">Torstaisäbä</p>
+						    </div>
+					</div>
+
+					<div class="row event-sub">
+						    <div class="col-2 date">
+						      <p class="month">May</p>
+						      <p class="month day">12</p>
+						    </div>
+						    <div class="col-7 event-sub-title">
+						      <p class="event_title_sub">Tänään klo 20:3</p>
+						      <p class="event_description">! NOTE! Registration of the deputies on Wednesdays after 8 pm. MAX. IN 22 (20 on the field + 2 goalkeepers).
+                              Replacement fee 6 €, payment to account FI74 5490 0720 1282 02 OR transfer / mobilepay: 0404190475 / Henrik Turtinen</p>
+                             
+                               <ul class="inline">
+                               	<span>Participant:</span>
+                              	<li>Sampoo</li>
+                              	<li>Saroar</li>
+                              	<li>Markuz</li>
+                              </ul>
+						    </div>
+						    <div class="col-3 join">
+						      <p class="event_in eidt"><i class="far fa-edit"></i> Edit Event</p>
+						      <p class="event_in eidt"><i class="fa fa-trash" aria-hidden="true"></i> Delete Event</p>
+
+						    </div>
+					</div>		
+    		</div>
+
+		</div>   	
+    </section>
+
+	<section class="foot">
+		   <div class="footer">
+	           <div class="container wid100">
+	               <div class="row">
+	                  <div class="col-sm-12">
+	                             Copyright 2019 , Developed By Team Fun                      
+	                  </div>
+	       
+	               </div>
+	           </div>
+	      </div>
+	</section>
+
+
+</body>
+</html>
+
