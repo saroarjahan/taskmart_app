@@ -388,6 +388,12 @@ p.event_title_sub {
     color: #424242;
     text-transform: capitalize;
 }
+ul.log {
+    padding-left: 0px;
+}
+ul.navbar-nav {
+    padding-left: 17px;
+}
 span.eve {
     margin: auto;
     text-align: center;
@@ -435,3 +441,10 @@ button.addEvent {
     margin-left: 121px;
 }
 }
+@media only screen and (max-width: 991px) {
+ div#navbarSupportedContent {
+    margin-top: 11px;
+    border-top: 1px solid #ffffff59;
+}
+}
+
