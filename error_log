@@ -1,0 +1,8 @@
+[06-Jul-2019 17:14:04 America/New_York] PHP Fatal error:  Uncaught Auth0\SDK\Exception\CoreException: Invalid state in /home/snapkdlp/taskmart.online/auth/vendor/auth0/auth0-php/src/Auth0.php:536
+Stack trace:
+#0 /home/snapkdlp/taskmart.online/auth/vendor/auth0/auth0-php/src/Auth0.php(458): Auth0\SDK\Auth0->exchange()
+#1 /home/snapkdlp/taskmart.online/auth/index.php(32): Auth0\SDK\Auth0->getUser()
+#2 /home/snapkdlp/taskmart.online/header.php(54): include('/home/snapkdlp/...')
+#3 /home/snapkdlp/taskmart.online/index.php(3): include('/home/snapkdlp/...')
+#4 {main}
+  thrown in /home/snapkdlp/taskmart.online/auth/vendor/auth0/auth0-php/src/Auth0.php on line 536

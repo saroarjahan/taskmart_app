@@ -1,145 +1,145 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Team Sports</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="../static/css/style.css"> 
-    <!--datepicker source-->
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	<script type="text/javascript" src="{% static 'date/jquery.timepicker.js' %}"></script>
-	<link rel="stylesheet" type="text/css" href="{% static 'date/jquery.timepicker.css' %}" />
-	<script type="text/javascript" src="{% static 'date/bootstrap-datepicker.js' %}"></script>
-	<link rel="stylesheet" type="text/css" href="{% static 'date/bootstrap-datepicker.css' %}"/>
-	<script src="http://jonthornton.github.io/Datepair.js/dist/datepair.js"></script>
-	<script src="http://jonthornton.github.io/Datepair.js/dist/jquery.datepair.js"></script>
-    <!--vue.js source-->
-	<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
-	<!--claender source-->
-	<link href="{% static 'calender/fullcalendar.min.css' %}" rel='stylesheet' />
-    <script src="{% static 'calender/fullcalendar.min.js' %}"></script>   	
-    </style>
-</head>
-<body class="login">
-	   <div class="container wid100">
-	       <div class="container">
-			   	<div class="row studnet_nav">
-			   	             <div class="col-sm-8">            
-									     <ul class="nav nav-pills">
-									     	  <li class="nav-item">
-											    <a class="nav-link" href='{% url "student"%}'><img src="../static/css/image/logo.png"></a>
-											  </li>
-											  <li class="nav-item">
-											    <a class="nav-link" href='{% url "student"%}'>All Events</a>
-											  </li>
-											  											  <li class="nav-item">
-											    <a class="nav-link" href='{% url "student"%}'>All Team</a>
-											  </li>
-											  											  </li>
-											  											  <li class="nav-item">
-											    <a class="nav-link" href='{% url "student"%}'>All Member</a>
-											  </li>
-											  <li class="nav-item">
-											    <a class="nav-link" href='{% url "quick_appointmnet"%}'>My Events</a>
-											  </li>
-										  </ul>	                             
-			                  </div>
-
-			                 <div class="col-sm-4">
-								     <ul class="nav nav-pills">
-										  <li class="nav-item">
-										    <p>Wecome: {User Name}</p> 
-										  </li>
-										  <li class="nav-item">
-										    <a class="nav-link" href='{% url "logout"%}'>Log Out</a>
-										  </li>
-									  </ul>	     
-				       		 </div>
-				  </div>
-			</div>
-    </div>
-
-	<section class="reg">
-				<div class="register_student">
-								<div class="container height">
-								  <div class="row">
-								    <div class="col-md-6 offset-md-3">
-
-				                            <h2 class="Login">Sign Up for Member Account</h2><br>
-								    		<div class="input-group mb-3">
-											  <div class="input-group-prepend">
-											    <span class="input-group-text" id="basic-addon1"><i class="far fa-user"></i></span>
-											  </div>
-											  <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
-											</div>
-
-											<div class="input-group mb-3">
-											  <div class="input-group-prepend">
-											    <span class="input-group-text" id="basic-addon1"><i class="fas fa-file-signature"></i></span>
-											  </div>
-											  <input type="text" class="form-control" placeholder="First Name" aria-label="fName" aria-describedby="basic-addon1">
-											</div>
-
-											<div class="input-group mb-3">
-											  <div class="input-group-prepend">
-											    <span class="input-group-text" id="basic-addon1"><i class="fas fa-file-signature"></i></span>
-											  </div>
-											  <input type="text" class="form-control" placeholder="Last Name" aria-label="lName" aria-describedby="basic-addon1">
-											</div>
-
-											<div class="input-group mb-3">
-											  <div class="input-group-prepend">
-											    <span class="input-group-text" id="basic-addon1"><i class="fas fa-file-signature"></i></span>
-											  </div>
-											  <input type="text" class="form-control" placeholder="Email" aria-label="lName" aria-describedby="basic-addon1">
-											</div>
-
-											<div class="input-group mb-3">
-											  <div class="input-group-prepend">
-											    <span class="input-group-text" id="basic-addon1"><i class="far fa-id-badge"></i></span>
-											  </div>
-											  <input type="number" class="form-control" placeholder="Phone Number" aria-label="number" aria-describedby="basic-addon1">
-											</div>
-
-											<div class="input-group mb-3">
-											  <div class="input-group-prepend">
-											    <span class="input-group-text" id="basic-addon1">*</span>
-											  </div>
-											  <input type="password" class="form-control" placeholder="Password" aria-label="pass" aria-describedby="basic-addon1">
-											  <input type="password" class="form-control" placeholder="Repeat Password" aria-label="repeat_pass" aria-describedby="basic-addon1">
-											</div>
-
-											<div class="input-group mb-3">
-												  <input type="submit" class="form-control submit" placeholder="submit" aria-label="submit" aria-describedby="basic-addon1">
-											</div>
-
-											<a class="regi" href="http://127.0.0.1:8000">Back To Login</a>	      
-								    </div>               
-								  </div>
-								</div>	
-</div>		
-	</section>
-
-	<section class="foot">
-			   <div class="footer">
-		           <div class="container wid100">
-		               <div class="row">
-		                  <div class="col-sm-12">
-		                             Copyright 2019 , Developed By Team Fun                      
-		                  </div>
-		       
-		               </div>
-		           </div>
-		      </div>
-	</section>
-
-
-</body>
-</html>
-
-
-							
-
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Team Sports</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css"> 
+    <!--datepicker source-->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript" src="{% static 'date/jquery.timepicker.js' %}"></script>
+	<link rel="stylesheet" type="text/css" href="{% static 'date/jquery.timepicker.css' %}" />
+	<script type="text/javascript" src="{% static 'date/bootstrap-datepicker.js' %}"></script>
+	<link rel="stylesheet" type="text/css" href="{% static 'date/bootstrap-datepicker.css' %}"/>
+	<script src="http://jonthornton.github.io/Datepair.js/dist/datepair.js"></script>
+	<script src="http://jonthornton.github.io/Datepair.js/dist/jquery.datepair.js"></script>
+    <!--vue.js source-->
+	<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+	<!--claender source-->
+	<link href="{% static 'calender/fullcalendar.min.css' %}" rel='stylesheet' />
+    <script src="{% static 'calender/fullcalendar.min.js' %}"></script>   	
+    </style>
+</head>
+<body class="login">
+	   <div class="container wid100">
+	       <div class="container">
+			   	<div class="row studnet_nav">
+			   	             <div class="col-sm-8">            
+									     <ul class="nav nav-pills">
+									     	  <li class="nav-item">
+											    <a class="nav-link" href='{% url "student"%}'><img src="../static/css/image/logo.png"></a>
+											  </li>
+											  <li class="nav-item">
+											    <a class="nav-link" href='{% url "student"%}'>All Events</a>
+											  </li>
+											  											  <li class="nav-item">
+											    <a class="nav-link" href='{% url "student"%}'>All Team</a>
+											  </li>
+											  											  </li>
+											  											  <li class="nav-item">
+											    <a class="nav-link" href='{% url "student"%}'>All Member</a>
+											  </li>
+											  <li class="nav-item">
+											    <a class="nav-link" href='{% url "quick_appointmnet"%}'>My Events</a>
+											  </li>
+										  </ul>	                             
+			                  </div>
+
+			                 <div class="col-sm-4">
+								     <ul class="nav nav-pills">
+										  <li class="nav-item">
+										    <p>Wecome: {User Name}</p> 
+										  </li>
+										  <li class="nav-item">
+										    <a class="nav-link" href='{% url "logout"%}'>Log Out</a>
+										  </li>
+									  </ul>	     
+				       		 </div>
+				  </div>
+			</div>
+    </div>
+
+	<section class="reg">
+				<div class="register_student">
+								<div class="container height">
+								  <div class="row">
+								    <div class="col-md-6 offset-md-3">
+
+				                            <h2 class="Login">Sign Up for Member Account</h2><br>
+								    		<div class="input-group mb-3">
+											  <div class="input-group-prepend">
+											    <span class="input-group-text" id="basic-addon1"><i class="far fa-user"></i></span>
+											  </div>
+											  <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+											</div>
+
+											<div class="input-group mb-3">
+											  <div class="input-group-prepend">
+											    <span class="input-group-text" id="basic-addon1"><i class="fas fa-file-signature"></i></span>
+											  </div>
+											  <input type="text" class="form-control" placeholder="First Name" aria-label="fName" aria-describedby="basic-addon1">
+											</div>
+
+											<div class="input-group mb-3">
+											  <div class="input-group-prepend">
+											    <span class="input-group-text" id="basic-addon1"><i class="fas fa-file-signature"></i></span>
+											  </div>
+											  <input type="text" class="form-control" placeholder="Last Name" aria-label="lName" aria-describedby="basic-addon1">
+											</div>
+
+											<div class="input-group mb-3">
+											  <div class="input-group-prepend">
+											    <span class="input-group-text" id="basic-addon1"><i class="fas fa-file-signature"></i></span>
+											  </div>
+											  <input type="text" class="form-control" placeholder="Email" aria-label="lName" aria-describedby="basic-addon1">
+											</div>
+
+											<div class="input-group mb-3">
+											  <div class="input-group-prepend">
+											    <span class="input-group-text" id="basic-addon1"><i class="far fa-id-badge"></i></span>
+											  </div>
+											  <input type="number" class="form-control" placeholder="Phone Number" aria-label="number" aria-describedby="basic-addon1">
+											</div>
+
+											<div class="input-group mb-3">
+											  <div class="input-group-prepend">
+											    <span class="input-group-text" id="basic-addon1">*</span>
+											  </div>
+											  <input type="password" class="form-control" placeholder="Password" aria-label="pass" aria-describedby="basic-addon1">
+											  <input type="password" class="form-control" placeholder="Repeat Password" aria-label="repeat_pass" aria-describedby="basic-addon1">
+											</div>
+
+											<div class="input-group mb-3">
+												  <input type="submit" class="form-control submit" placeholder="submit" aria-label="submit" aria-describedby="basic-addon1">
+											</div>
+
+											<a class="regi" href="http://127.0.0.1:8000">Back To Login</a>	      
+								    </div>               
+								  </div>
+								</div>	
+</div>		
+	</section>
+
+	<section class="foot">
+			   <div class="footer">
+		           <div class="container wid100">
+		               <div class="row">
+		                  <div class="col-sm-12">
+		                             Copyright 2019 , Developed By Team Fun                      
+		                  </div>
+		       
+		               </div>
+		           </div>
+		      </div>
+	</section>
+
+
+</body>
+</html>
+
+
+							
+

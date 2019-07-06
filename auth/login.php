@@ -18,7 +18,7 @@
       'domain' => 'taskmart.eu.auth0.com',
       'client_id' => 'u69bIFchiNgtl7Iq1xu49Er2LRPcYCZI',
       'client_secret' => 'RckKuJZNdl_uG5tEAvShAlnW4zo3zXQ_ltMyzKJA8didlpnzw61IqU207Q7qrYLO',
-      'redirect_uri' => 'http://taskmart.online/auth/',
+      'redirect_uri' => 'http://taskmart.online/',
       'audience' => $audience,
       'scope' => 'openid profile',
       'persist_id_token' => true,
