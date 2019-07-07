@@ -85,11 +85,7 @@
 
 		    <ul class="log">
 
-		          <li class="nav-item">
-
-			        <a class="nav-link disabled" href="./auth/login.php"><i class="fas fa-user-alt"></i> login</a>
-
-			      </li>
+			        <i class="fas fa-user-alt"></i> <img v-show="imageShow" :src="userImage"><a class="nav-link disabled" :href="loginUrl">{{loginStatus}}</a>
 
 		    </ul>
 

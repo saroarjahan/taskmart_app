@@ -11,6 +11,7 @@ include 'header.php';
 <section class="events">
 
 	<div class="container main">
+		<h4>{{userId}}</h4>
 
 		<div class="row" >
 
