@@ -51,5 +51,5 @@ setTimeout(function(){
     app.loginStatus="LogOut";
     app.imageShow=true;
   }
-}, 300);
+}, 2000);
 
