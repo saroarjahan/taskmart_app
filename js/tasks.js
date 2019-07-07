@@ -52,5 +52,4 @@ setTimeout(function(){
     app.imageShow=true;
   }
 }, 300);
-google-oauth2|105040559998408601994
 
