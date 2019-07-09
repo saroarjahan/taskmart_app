@@ -97,7 +97,7 @@ a.nav-link.logo img {
 
     background: #ffffffeb;
 
-    border: 1px solid #00000012;
+
 
     min-height: 700px;
 
@@ -153,14 +153,17 @@ li.nav-item.active a {
 
     background: #ffffffeb;
 
-    border: 1px solid #00000012;
-
     min-height: 700px;
 
     margin-bottom: -45px;
 
     padding-top: 27px;
 
+}
+.footer {
+    min-height: 121px;
+    background: white;
+    border-top: 1px solid #00000012;
 }
 
 span.messageRed {

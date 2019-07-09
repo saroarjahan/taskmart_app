@@ -1,5 +1,5 @@
 <?php
-
+header("Access-Control-Allow-Origin: *");
 include ("Db.php");
 $db = new Db();
 

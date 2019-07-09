@@ -1,9 +1,8 @@
 <?php
-
+header("Access-Control-Allow-Origin: http://simohosio.com/");
+header("Access-Control-Allow-Origin: *");
 include ("Db.php");
 $db = new Db();
-
-
 $taskid = $db -> quoteNum($_POST['task_id']);
 $user_id = $db -> quote($_POST['user_id']);
 $s1 = $db -> quote($_POST['S1']);
@@ -37,8 +36,4 @@ if($result === false) {
     $array = array('success' => 'true', 'inserted_id' => $last_id);
     echo json_encode($array);
 }
-
-
-
-	
 ?>
