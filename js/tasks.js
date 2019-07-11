@@ -42,7 +42,7 @@ $(document).ready(function () {
 });
 
 //Get usaer ID
-setTimeout(function(){ 
+setInterval(function(){ 
   app.userId=document.getElementById('uniqueId').innerHTML;
   app.userId=app.userId.substring('google-oauth2|'.length);
   app.userImage=document.getElementById('proImage').src;
@@ -51,5 +51,5 @@ setTimeout(function(){
     app.loginStatus="LogOut";
     app.imageShow=true;
   }
-}, 2000);
+}, 10);
 

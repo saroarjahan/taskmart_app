@@ -94,15 +94,8 @@ a.nav-link.logo img {
 
 
 .main {
-
     background: #ffffffeb;
-
-
-
     min-height: 700px;
-
-    margin-bottom: -45px;
-
 }
 
 li.nav-item.active a {
@@ -145,20 +138,18 @@ li.nav-item.active a {
 
     height: 500px;
 
-    background: linear-gradient( rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9) ), /* bottom, image */ url(../css/image/background.png);
+    background: white;
 
 }
 
 .main {
-
     background: #ffffffeb;
-
     min-height: 700px;
-
-    margin-bottom: -45px;
-
-    padding-top: 27px;
-
+    padding-top: 0px;
+    border-left: 1px solid #0000000a;
+    border-right: 1px solid #0000000a;
+    margin-bottom: -17px;
+    margin-top: 21px;
 }
 .footer {
     min-height: 121px;

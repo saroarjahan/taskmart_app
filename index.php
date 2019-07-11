@@ -17,7 +17,7 @@ include 'header.php';
 
  				 <img :src="data.image">
 
- 				 <h5 class="empty">{{data.title+"1"}}</h5>
+ 				 <h5 class="empty">{{data.title}}</h5>
 
  				 <a :href="data.URL+'?userID='+userId+'&taskID='+data.id"><button class="btn btn-info">Participate</button></a>
 
