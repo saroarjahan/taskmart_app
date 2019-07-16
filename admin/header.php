@@ -55,16 +55,12 @@
 
 		    <ul class="navbar-nav nav mr-auto mt-2 mt-lg-0">
 
-			      <li class=" nav-item active">
-
+			      <li class=" nav-item">
 			        <a class="nav-link" href="index.php">All Tasks</a>
-
 			      </li>
 
 			      <li class="nav-item">
-
 			        <a class="nav-link" href="addTask.php">Add Tasks</a>
-
 			      </li>
 
 			</ul>
