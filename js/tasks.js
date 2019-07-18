@@ -10,6 +10,7 @@ var app = new Vue({
     userImage:null,
     imageShow:false,
     loginUrl:'http://'+location.hostname+"/auth/login.php",
+    url:'http://'+location.hostname,
     loginStatus:"Login",
     adminLogin:false,
     access:"Sorry You do not have any access in this page",

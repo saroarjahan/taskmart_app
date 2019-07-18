@@ -16,7 +16,7 @@ include 'header.php';
 
  				 <h5 class="empty">{{data.title}}</h5>
 
- 				 <a :href="data.URL+'?userID='+userId+'&taskID='+data.id"><button class="btn btn-info">Participate</button></a> <a :href="data.URL+'?userID='+userId+'&taskID='+data.id"><button class="btn btn-info btn-danger"><i class="far fa-trash-alt"></i> Delete</button></a>
+ 				 <a :href="data.URL+'?userID='+userId+'&taskID='+data.id"><button class="btn btn-info">Participate</button></a> <a :href="url+'/admin/deleteTask.php?task_id='+data.id"><button class="btn btn-info btn-danger"><i class="far fa-trash-alt"></i> Delete</button></a>
 
 			</div>    
 

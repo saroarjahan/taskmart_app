@@ -70,7 +70,9 @@ include 'header.php';
 		</div>	
 	</div>		
 </section>
-
+<script type="text/javascript">
+	setTimeout(function(){ window.location.href = 'http://'+location.hostname+'/admin/'; }, 3000);
+</script>
 
 <!--footer sestion-->
 
