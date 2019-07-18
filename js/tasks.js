@@ -16,7 +16,6 @@ var app = new Vue({
     adminLogin:false,
     access:"Sorry You do not have any access in this page",
   },
-
   mounted () {
       //Get User ALl events druing initial load
       axios
@@ -33,7 +32,6 @@ var app = new Vue({
 })
 
 //javascript for navigation activate
-
 $(document).ready(function () {
 
         var url = window.location;
