@@ -1,19 +1,16 @@
 <!--Header sestion-->
 
 <?php
-
 include 'header.php';             
-
 ?>
 
 <!--Main Body Event section-->
-
 <section class="events">
 
 	<div class="container main">
 		<div class="row" >
-
-			<div class="col-md-3" v-for="data in info.data">
+			<h3 class="Adpost">{{access}}</h3><br>
+			<div class="col-md-3" v-for="data in info.data" v-if="adminLogin==='109346374245203627270'">
 
  				 <img :src="data.image">
 

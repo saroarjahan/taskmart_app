@@ -3,7 +3,7 @@ var app = new Vue({
   el: '#appEvents',
 
   data: {
-    title:null, 
+    title:null,
     info:null,
     host:location.hostname,
     userId:null,
@@ -11,6 +11,8 @@ var app = new Vue({
     imageShow:false,
     loginUrl:'http://'+location.hostname+"/auth/login.php",
     loginStatus:"Login",
+    adminLogin:false,
+    access:"Sorry You do not have any access in this page",
   },
 
   mounted () {
@@ -32,13 +34,9 @@ $(document).ready(function () {
         var url = window.location;
 
         $('ul.nav a[href="'+ url +'"]').parent().addClass('active');
-
         $('ul.nav a').filter(function() {
-
              return this.href == url;
-
         }).parent().addClass('active');
-
 });
 
 //Get usaer ID
@@ -50,6 +48,10 @@ setInterval(function(){
     app.loginUrl='http://'+location.hostname+"/auth/logout.php";
     app.loginStatus="LogOut";
     app.imageShow=true;
+    if(app.userId=="109346374245203627270"){
+      app.adminLogin="109346374245203627270";
+      app.access=null;
+    }
   }
 }, 10);
 

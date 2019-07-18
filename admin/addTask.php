@@ -2,18 +2,19 @@
 include 'header.php';             
 ?>
 
-<section class="reg">
+<section class="reg" >
 	<div class="register_student">
 		<div class="container height">
 		  <div class="row">
-		    <div class="col-md-6 offset-md-3">
+		  	<h3 class="Adpost">{{access}}</h3><br>
+		    <div class="col-md-6 offset-md-3" v-if="adminLogin==='109346374245203627270'">
                <h3 class="Adpost">Add New Taks</h3><br>
                	<form action="addTask.php" method="post">
 		    		<div class="input-group mb-3">
 					  <div class="input-group-prepend">
 					    <span class="input-group-text" id="basic-addon1"><i class="fas fa-file-signature"></i></span>
 					  </div>
-					  <input type="text" class="form-control" placeholder="Title" name="title" aria-describedby="basic-addon1">
+					  <input type="text" required class="form-control" placeholder="Title" name="title" aria-describedby="basic-addon1">
 					</div>
 
 					<div class="input-group mb-3">
@@ -69,8 +70,6 @@ include 'header.php';
 		</div>	
 	</div>		
 </section>
-
-
 
 
 <!--footer sestion-->
