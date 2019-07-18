@@ -16,7 +16,7 @@ include 'header.php';
 					$sql = "DELETE FROM tasks WHERE id='$id'";
 
 					if ($conn->query($sql) === TRUE) {
-					    echo "Record deleted successfully";
+					    echo "<h3>Record deleted successfully</h3>";
 					} else {
 					    echo "Error deleting record: " . $conn->error;
 					}

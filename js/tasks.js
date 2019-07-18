@@ -5,6 +5,7 @@ var app = new Vue({
   data: {
     title:null,
     info:null,
+    avatar:true,
     host:location.hostname,
     userId:null,
     userImage:null,
@@ -23,7 +24,10 @@ var app = new Vue({
       .then(response => (this.info = response));
   },
 
-  methods: {     
+  methods: {  
+
+
+ 
   },  
 
 })
@@ -49,6 +53,7 @@ setInterval(function(){
     app.loginUrl='http://'+location.hostname+"/auth/logout.php";
     app.loginStatus="LogOut";
     app.imageShow=true;
+    app.avatar=false;
     if(app.userId=="109346374245203627270"){
       app.adminLogin="109346374245203627270";
       app.access=null;

@@ -36,7 +36,7 @@ include 'header.php';
 					  <input type="text" required class="form-control" placeholder="Url" name="url" aria-describedby="basic-addon1">
 					</div>
 					<div class="input-group mb-3">
-						  <input type="submit" class="form-control submit" placeholder="submit" name="submit" aria-describedby="basic-addon1">
+						  <input type="submit" @click="addSubmit" class="form-control submit" placeholder="submit" name="submit" aria-describedby="basic-addon1">
 					</div>
 				</form>  
 
@@ -57,7 +57,7 @@ include 'header.php';
 					  VALUES ('$title','$description','$url','$reward','http://taskmart.online/static/css/image/task.jpg')";
 
 						if (mysqli_query($conn, $sql)) {
-						    echo "New record created successfully";
+						    echo "<h3 id='success'>New record created successfully</h3>";
 						} else {
 						    echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 						}
@@ -70,9 +70,14 @@ include 'header.php';
 		</div>	
 	</div>		
 </section>
+
 <script type="text/javascript">
-	setTimeout(function(){ window.location.href = 'http://'+location.hostname+'/admin/'; }, 3000);
+	setTimeout(function(){ 
+        var value=document.getElementById("success").innerHTML;
+            if(value){window.location.href = 'http://'+location.hostname+'/admin/'; }         
+        }, 3000);
 </script>
+
 
 <!--footer sestion-->
 
