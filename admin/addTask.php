@@ -46,15 +46,23 @@ include 'header.php';
 					include ("../php/db_connection.php");
 
 					$title = $description = $url= "";
-
+					$secrete=3;
+					$sql = "SELECT id FROM tasks";
+					$result = $conn->query($sql);
+					if ($result->num_rows > 0) {
+					    // output data of each row
+					    while($row = $result->fetch_assoc()) {
+					        $secrete=$secrete*$row["id"];
+					    }
+					}
 					if (isset($_POST['submit'])) {
 					  $title = $_POST["title"];
 					  $description = $_POST["description"];
 					  $url = $_POST["url"];
 					  $reward= $_POST["reward"];
 
-					  $sql = "INSERT INTO tasks (title,description,url,reward,image)
-					  VALUES ('$title','$description','$url','$reward','http://taskmart.online/static/css/image/task.jpg')";
+					  $sql = "INSERT INTO tasks (title,secrete,description,url,reward,image)
+					  VALUES ('$title','$secrete','$description','$url','$reward','http://taskmart.online/static/css/image/task.jpg')";
 
 						if (mysqli_query($conn, $sql)) {
 						    echo "<h3 id='success'>New record created successfully</h3>";
