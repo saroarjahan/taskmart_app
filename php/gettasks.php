@@ -10,6 +10,13 @@ $query = "SELECT * from tasks";
 
 $result = $db -> select($query);
 
+
+//encript secrete value
+foreach($result as $key => $value)
+{
+  $result[$key]['secrete'] = $value['secrete']*2354;
+}
+
 if($result === false) {
 
     $error = $db -> error();
@@ -19,10 +26,6 @@ if($result === false) {
     return false;
 
 }
-
-
-
-
 
 echo json_encode($result);
 

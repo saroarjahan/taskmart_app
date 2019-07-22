@@ -1,0 +1,304 @@
+[20-Jul-2019 19:20:13 America/New_York] PHP Warning:  include(./auth/index.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/header.php on line 104
+[20-Jul-2019 19:20:13 America/New_York] PHP Warning:  include(): Failed opening './auth/index.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/header.php on line 104
+[20-Jul-2019 19:20:13 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/putprogress.php on line 5
+[20-Jul-2019 19:20:13 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/putprogress.php on line 5
+[20-Jul-2019 19:20:13 America/New_York] PHP Notice:  Undefined index: task_secrete in /home/snapkdlp/taskmart.online/completed/putprogress.php on line 6
+[20-Jul-2019 19:21:41 America/New_York] PHP Warning:  include(./auth/index.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/header.php on line 104
+[20-Jul-2019 19:21:41 America/New_York] PHP Warning:  include(): Failed opening './auth/index.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/header.php on line 104
+[20-Jul-2019 19:21:41 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/putprogress.php on line 5
+[20-Jul-2019 19:21:41 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/putprogress.php on line 5
+[20-Jul-2019 19:21:41 America/New_York] PHP Notice:  Undefined index: task_secrete in /home/snapkdlp/taskmart.online/completed/putprogress.php on line 6
+[20-Jul-2019 19:22:05 America/New_York] PHP Warning:  include(./auth/index.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/header.php on line 104
+[20-Jul-2019 19:22:05 America/New_York] PHP Warning:  include(): Failed opening './auth/index.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/header.php on line 104
+[20-Jul-2019 19:22:05 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/putprogress.php on line 5
+[20-Jul-2019 19:22:05 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/putprogress.php on line 5
+[20-Jul-2019 19:22:05 America/New_York] PHP Notice:  Undefined index: task_secrete in /home/snapkdlp/taskmart.online/completed/putprogress.php on line 6
+[20-Jul-2019 19:22:08 America/New_York] PHP Warning:  include(./auth/index.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/header.php on line 104
+[20-Jul-2019 19:22:08 America/New_York] PHP Warning:  include(): Failed opening './auth/index.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/header.php on line 104
+[20-Jul-2019 19:22:08 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/putprogress.php on line 5
+[20-Jul-2019 19:22:08 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/putprogress.php on line 5
+[20-Jul-2019 19:22:08 America/New_York] PHP Notice:  Undefined index: task_secrete in /home/snapkdlp/taskmart.online/completed/putprogress.php on line 6
+[20-Jul-2019 19:23:34 America/New_York] PHP Warning:  include(./auth/index.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/header.php on line 104
+[20-Jul-2019 19:23:34 America/New_York] PHP Warning:  include(): Failed opening './auth/index.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/header.php on line 104
+[20-Jul-2019 19:24:11 America/New_York] PHP Warning:  include(./auth/index.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/header.php on line 104
+[20-Jul-2019 19:24:11 America/New_York] PHP Warning:  include(): Failed opening './auth/index.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/header.php on line 104
+[20-Jul-2019 19:24:11 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:24:11 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:24:11 America/New_York] PHP Notice:  Undefined index: task_secrete in /home/snapkdlp/taskmart.online/completed/index.php on line 20
+[20-Jul-2019 19:24:15 America/New_York] PHP Warning:  include(./auth/index.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/header.php on line 104
+[20-Jul-2019 19:24:15 America/New_York] PHP Warning:  include(): Failed opening './auth/index.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/header.php on line 104
+[20-Jul-2019 19:24:15 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:24:15 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:24:15 America/New_York] PHP Notice:  Undefined index: task_secrete in /home/snapkdlp/taskmart.online/completed/index.php on line 20
+[20-Jul-2019 19:24:16 America/New_York] PHP Warning:  include(./auth/index.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/header.php on line 104
+[20-Jul-2019 19:24:16 America/New_York] PHP Warning:  include(): Failed opening './auth/index.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/header.php on line 104
+[20-Jul-2019 19:24:16 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:24:16 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:24:16 America/New_York] PHP Notice:  Undefined index: task_secrete in /home/snapkdlp/taskmart.online/completed/index.php on line 20
+[20-Jul-2019 19:24:42 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:24:42 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:24:42 America/New_York] PHP Notice:  Undefined index: task_secrete in /home/snapkdlp/taskmart.online/completed/index.php on line 20
+[20-Jul-2019 19:24:46 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:24:46 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:24:46 America/New_York] PHP Notice:  Undefined index: task_secrete in /home/snapkdlp/taskmart.online/completed/index.php on line 20
+[20-Jul-2019 19:25:23 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:25:23 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:25:23 America/New_York] PHP Notice:  Undefined index: task_secrete in /home/snapkdlp/taskmart.online/completed/index.php on line 20
+[20-Jul-2019 19:25:44 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:25:44 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:25:44 America/New_York] PHP Notice:  Undefined index: task_secrete in /home/snapkdlp/taskmart.online/completed/index.php on line 20
+[20-Jul-2019 19:25:48 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:25:48 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:25:48 America/New_York] PHP Notice:  Undefined index: task_secrete in /home/snapkdlp/taskmart.online/completed/index.php on line 20
+[20-Jul-2019 19:27:02 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:27:02 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:27:02 America/New_York] PHP Notice:  Undefined index: task_secrete in /home/snapkdlp/taskmart.online/completed/index.php on line 20
+[20-Jul-2019 19:27:04 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:27:04 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:27:04 America/New_York] PHP Notice:  Undefined index: task_secrete in /home/snapkdlp/taskmart.online/completed/index.php on line 20
+[20-Jul-2019 19:27:09 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:27:09 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:27:09 America/New_York] PHP Notice:  Undefined index: task_secrete in /home/snapkdlp/taskmart.online/completed/index.php on line 20
+[20-Jul-2019 19:27:11 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:27:11 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:27:11 America/New_York] PHP Notice:  Undefined index: task_secrete in /home/snapkdlp/taskmart.online/completed/index.php on line 20
+[20-Jul-2019 19:27:13 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:27:13 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:27:13 America/New_York] PHP Notice:  Undefined index: task_secrete in /home/snapkdlp/taskmart.online/completed/index.php on line 20
+[20-Jul-2019 19:27:15 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:27:15 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:27:15 America/New_York] PHP Notice:  Undefined index: task_secrete in /home/snapkdlp/taskmart.online/completed/index.php on line 20
+[20-Jul-2019 19:27:19 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:27:19 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:27:19 America/New_York] PHP Notice:  Undefined index: task_secrete in /home/snapkdlp/taskmart.online/completed/index.php on line 20
+[20-Jul-2019 19:27:28 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:27:28 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:27:28 America/New_York] PHP Notice:  Undefined index: task_secrete in /home/snapkdlp/taskmart.online/completed/index.php on line 20
+[20-Jul-2019 19:27:30 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:27:30 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:27:30 America/New_York] PHP Notice:  Undefined index: task_secrete in /home/snapkdlp/taskmart.online/completed/index.php on line 20
+[20-Jul-2019 19:27:40 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:27:40 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:27:40 America/New_York] PHP Notice:  Undefined index: task_secrete in /home/snapkdlp/taskmart.online/completed/index.php on line 20
+[20-Jul-2019 19:27:57 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:27:57 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:27:57 America/New_York] PHP Notice:  Undefined index: task_secrete in /home/snapkdlp/taskmart.online/completed/index.php on line 20
+[20-Jul-2019 19:28:15 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:28:15 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:28:15 America/New_York] PHP Notice:  Undefined index: task_secrete in /home/snapkdlp/taskmart.online/completed/index.php on line 20
+[20-Jul-2019 19:28:21 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:28:21 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:28:21 America/New_York] PHP Notice:  Undefined index: task_secrete in /home/snapkdlp/taskmart.online/completed/index.php on line 20
+[20-Jul-2019 19:28:37 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:28:37 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:28:37 America/New_York] PHP Notice:  Undefined index: task_secrete in /home/snapkdlp/taskmart.online/completed/index.php on line 20
+[20-Jul-2019 19:29:44 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:29:44 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:30:23 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:30:23 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:30:30 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:30:30 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:30:32 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:30:32 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:30:37 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:30:37 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:32:45 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:32:45 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:32:48 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:32:48 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:33:38 America/New_York] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/snapkdlp/taskmart.online/completed/index.php on line 22
+[20-Jul-2019 19:33:40 America/New_York] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/snapkdlp/taskmart.online/completed/index.php on line 22
+[20-Jul-2019 19:34:01 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:34:01 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:34:36 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:34:36 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:47:35 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 19:47:35 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:34:28 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:34:28 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:34:28 America/New_York] PHP Notice:  Undefined variable: conn in /home/snapkdlp/taskmart.online/completed/index.php on line 27
+[20-Jul-2019 20:34:28 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/snapkdlp/taskmart.online/completed/index.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/completed/index.php on line 27
+[20-Jul-2019 20:34:32 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:34:32 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:34:32 America/New_York] PHP Notice:  Undefined variable: conn in /home/snapkdlp/taskmart.online/completed/index.php on line 27
+[20-Jul-2019 20:34:32 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/snapkdlp/taskmart.online/completed/index.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/completed/index.php on line 27
+[20-Jul-2019 20:35:48 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:35:48 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:35:48 America/New_York] PHP Notice:  Undefined variable: conn in /home/snapkdlp/taskmart.online/completed/index.php on line 27
+[20-Jul-2019 20:35:48 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/snapkdlp/taskmart.online/completed/index.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/completed/index.php on line 27
+[20-Jul-2019 20:35:51 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:35:51 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:35:51 America/New_York] PHP Notice:  Undefined variable: conn in /home/snapkdlp/taskmart.online/completed/index.php on line 27
+[20-Jul-2019 20:35:51 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/snapkdlp/taskmart.online/completed/index.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/completed/index.php on line 27
+[20-Jul-2019 20:35:52 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:35:52 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:35:52 America/New_York] PHP Notice:  Undefined variable: conn in /home/snapkdlp/taskmart.online/completed/index.php on line 27
+[20-Jul-2019 20:35:52 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/snapkdlp/taskmart.online/completed/index.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/completed/index.php on line 27
+[20-Jul-2019 20:35:53 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:35:53 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:35:53 America/New_York] PHP Notice:  Undefined variable: conn in /home/snapkdlp/taskmart.online/completed/index.php on line 27
+[20-Jul-2019 20:35:53 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/snapkdlp/taskmart.online/completed/index.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/completed/index.php on line 27
+[20-Jul-2019 20:35:54 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:35:54 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:35:54 America/New_York] PHP Notice:  Undefined variable: conn in /home/snapkdlp/taskmart.online/completed/index.php on line 27
+[20-Jul-2019 20:35:54 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/snapkdlp/taskmart.online/completed/index.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/completed/index.php on line 27
+[20-Jul-2019 20:35:58 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:35:58 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:35:58 America/New_York] PHP Notice:  Undefined index: task_secrete in /home/snapkdlp/taskmart.online/completed/index.php on line 20
+[20-Jul-2019 20:35:58 America/New_York] PHP Notice:  Undefined variable: conn in /home/snapkdlp/taskmart.online/completed/index.php on line 27
+[20-Jul-2019 20:35:58 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/snapkdlp/taskmart.online/completed/index.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/completed/index.php on line 27
+[20-Jul-2019 20:35:58 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:35:58 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:35:58 America/New_York] PHP Notice:  Undefined index: task_secrete in /home/snapkdlp/taskmart.online/completed/index.php on line 20
+[20-Jul-2019 20:35:58 America/New_York] PHP Notice:  Undefined variable: conn in /home/snapkdlp/taskmart.online/completed/index.php on line 27
+[20-Jul-2019 20:35:58 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/snapkdlp/taskmart.online/completed/index.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/completed/index.php on line 27
+[20-Jul-2019 20:36:44 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:36:44 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:36:44 America/New_York] PHP Notice:  Undefined index: task_secrete in /home/snapkdlp/taskmart.online/completed/index.php on line 20
+[20-Jul-2019 20:36:47 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:36:47 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:36:47 America/New_York] PHP Notice:  Undefined index: task_secrete in /home/snapkdlp/taskmart.online/completed/index.php on line 20
+[20-Jul-2019 20:37:22 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:37:22 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:37:22 America/New_York] PHP Notice:  Undefined index: task_secrete in /home/snapkdlp/taskmart.online/completed/index.php on line 20
+[20-Jul-2019 20:37:24 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:37:24 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:38:54 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:38:54 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:38:54 America/New_York] PHP Notice:  Undefined variable: conn in /home/snapkdlp/taskmart.online/completed/index.php on line 26
+[20-Jul-2019 20:38:54 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/snapkdlp/taskmart.online/completed/index.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/completed/index.php on line 26
+[20-Jul-2019 20:38:57 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:38:57 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:38:57 America/New_York] PHP Notice:  Undefined variable: conn in /home/snapkdlp/taskmart.online/completed/index.php on line 26
+[20-Jul-2019 20:38:57 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/snapkdlp/taskmart.online/completed/index.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/completed/index.php on line 26
+[20-Jul-2019 20:38:58 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:38:58 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:38:58 America/New_York] PHP Notice:  Undefined variable: conn in /home/snapkdlp/taskmart.online/completed/index.php on line 26
+[20-Jul-2019 20:38:58 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/snapkdlp/taskmart.online/completed/index.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/completed/index.php on line 26
+[20-Jul-2019 20:39:50 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:39:50 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:40:27 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:40:27 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:40:33 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:40:33 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:40:33 America/New_York] PHP Notice:  Undefined variable: conn in /home/snapkdlp/taskmart.online/completed/index.php on line 27
+[20-Jul-2019 20:40:33 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/snapkdlp/taskmart.online/completed/index.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/completed/index.php on line 27
+[20-Jul-2019 20:40:35 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:40:35 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:40:35 America/New_York] PHP Notice:  Undefined variable: conn in /home/snapkdlp/taskmart.online/completed/index.php on line 27
+[20-Jul-2019 20:40:35 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/snapkdlp/taskmart.online/completed/index.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/completed/index.php on line 27
+[20-Jul-2019 20:40:36 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:40:36 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:40:36 America/New_York] PHP Notice:  Undefined variable: conn in /home/snapkdlp/taskmart.online/completed/index.php on line 27
+[20-Jul-2019 20:40:36 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/snapkdlp/taskmart.online/completed/index.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/completed/index.php on line 27
+[20-Jul-2019 20:41:22 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:41:22 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:41:22 America/New_York] PHP Notice:  Undefined variable: conn in /home/snapkdlp/taskmart.online/completed/index.php on line 27
+[20-Jul-2019 20:41:22 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/snapkdlp/taskmart.online/completed/index.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/completed/index.php on line 27
+[20-Jul-2019 20:41:24 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:41:24 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:41:24 America/New_York] PHP Notice:  Undefined variable: conn in /home/snapkdlp/taskmart.online/completed/index.php on line 27
+[20-Jul-2019 20:41:24 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/snapkdlp/taskmart.online/completed/index.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/completed/index.php on line 27
+[20-Jul-2019 20:43:54 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:43:54 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:43:54 America/New_York] PHP Notice:  Undefined variable: conn in /home/snapkdlp/taskmart.online/completed/index.php on line 27
+[20-Jul-2019 20:43:54 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/snapkdlp/taskmart.online/completed/index.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/completed/index.php on line 27
+[20-Jul-2019 20:43:57 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:43:57 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:43:57 America/New_York] PHP Notice:  Undefined variable: conn in /home/snapkdlp/taskmart.online/completed/index.php on line 26
+[20-Jul-2019 20:43:57 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/snapkdlp/taskmart.online/completed/index.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/completed/index.php on line 26
+[20-Jul-2019 20:45:23 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:45:23 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:45:23 America/New_York] PHP Notice:  Undefined variable: conn in /home/snapkdlp/taskmart.online/completed/index.php on line 26
+[20-Jul-2019 20:45:23 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/snapkdlp/taskmart.online/completed/index.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/completed/index.php on line 26
+[20-Jul-2019 20:45:25 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:45:25 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:45:25 America/New_York] PHP Notice:  Undefined variable: conn in /home/snapkdlp/taskmart.online/completed/index.php on line 26
+[20-Jul-2019 20:45:25 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/snapkdlp/taskmart.online/completed/index.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/completed/index.php on line 26
+[20-Jul-2019 20:45:54 America/New_York] PHP Warning:  include(../db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:45:54 America/New_York] PHP Warning:  include(): Failed opening '../db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/completed/index.php on line 19
+[20-Jul-2019 20:45:54 America/New_York] PHP Notice:  Undefined variable: conn in /home/snapkdlp/taskmart.online/completed/index.php on line 26
+[20-Jul-2019 20:45:54 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/snapkdlp/taskmart.online/completed/index.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/completed/index.php on line 26
+[20-Jul-2019 21:47:29 America/New_York] PHP Notice:  Undefined variable: check in /home/snapkdlp/taskmart.online/completed/index.php on line 50
+[20-Jul-2019 21:47:31 America/New_York] PHP Notice:  Undefined variable: check in /home/snapkdlp/taskmart.online/completed/index.php on line 50
+[20-Jul-2019 21:47:32 America/New_York] PHP Notice:  Undefined variable: check in /home/snapkdlp/taskmart.online/completed/index.php on line 50
+[20-Jul-2019 21:47:33 America/New_York] PHP Notice:  Undefined variable: check in /home/snapkdlp/taskmart.online/completed/index.php on line 50
+[20-Jul-2019 21:47:34 America/New_York] PHP Notice:  Undefined variable: check in /home/snapkdlp/taskmart.online/completed/index.php on line 50
+[20-Jul-2019 21:47:35 America/New_York] PHP Notice:  Undefined variable: check in /home/snapkdlp/taskmart.online/completed/index.php on line 50
+[20-Jul-2019 21:47:36 America/New_York] PHP Notice:  Undefined variable: check in /home/snapkdlp/taskmart.online/completed/index.php on line 50
+[20-Jul-2019 21:47:49 America/New_York] PHP Notice:  Undefined variable: check in /home/snapkdlp/taskmart.online/completed/index.php on line 50
+[20-Jul-2019 21:47:50 America/New_York] PHP Notice:  Undefined variable: check in /home/snapkdlp/taskmart.online/completed/index.php on line 50
+[20-Jul-2019 21:47:55 America/New_York] PHP Notice:  Undefined variable: check in /home/snapkdlp/taskmart.online/completed/index.php on line 51
+[20-Jul-2019 21:48:13 America/New_York] PHP Notice:  Undefined variable: check in /home/snapkdlp/taskmart.online/completed/index.php on line 51
+[20-Jul-2019 21:49:16 America/New_York] PHP Notice:  Undefined variable: check in /home/snapkdlp/taskmart.online/completed/index.php on line 51
+[20-Jul-2019 21:50:12 America/New_York] PHP Notice:  Undefined variable: check in /home/snapkdlp/taskmart.online/completed/index.php on line 51
+[20-Jul-2019 21:50:22 America/New_York] PHP Notice:  Undefined variable: check in /home/snapkdlp/taskmart.online/completed/index.php on line 52
+[20-Jul-2019 21:52:29 America/New_York] PHP Notice:  Undefined variable: check in /home/snapkdlp/taskmart.online/completed/index.php on line 53
+[20-Jul-2019 21:54:37 America/New_York] PHP Notice:  Undefined variable: check in /home/snapkdlp/taskmart.online/completed/index.php on line 53
+[20-Jul-2019 21:59:24 America/New_York] PHP Notice:  Undefined variable: check in /home/snapkdlp/taskmart.online/completed/index.php on line 55

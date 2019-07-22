@@ -41,3 +41,312 @@ Stack trace:
 [04-Jul-2019 11:32:43 America/New_York] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''','0','','','','','','{\"ip\":\"130.231.165.243\",\"useragent\":\"Mozilla\\/5.0' at line 1
 [04-Jul-2019 11:38:16 America/New_York] PHP Notice:  Undefined offset: 0 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 21
 [04-Jul-2019 11:38:16 America/New_York] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''NA','NA','NA','NA','5d1e1d677bd65','{\"ip\":\"130.231.165.243\",\"useragent\":\' at line 1
+[08-Jul-2019 07:02:03 America/New_York] PHP Notice:  Undefined index: task_id in /home/snapkdlp/taskmart.online/php/putprogress.php on line 7
+[08-Jul-2019 07:02:03 America/New_York] PHP Notice:  Undefined index: user_id in /home/snapkdlp/taskmart.online/php/putprogress.php on line 8
+[08-Jul-2019 07:02:03 America/New_York] PHP Notice:  Undefined index: S1 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 9
+[08-Jul-2019 07:02:03 America/New_York] PHP Notice:  Undefined index: S2 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 10
+[08-Jul-2019 07:02:03 America/New_York] PHP Notice:  Undefined index: S3 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 11
+[08-Jul-2019 07:02:03 America/New_York] PHP Notice:  Undefined index: S4 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 12
+[08-Jul-2019 07:02:03 America/New_York] PHP Notice:  Undefined index: session_id in /home/snapkdlp/taskmart.online/php/putprogress.php on line 13
+[08-Jul-2019 07:02:03 America/New_York] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[08-Jul-2019 07:02:03 America/New_York] PHP Notice:  Undefined index: HTTP_REFERER in /home/snapkdlp/taskmart.online/php/putprogress.php on line 24
+[08-Jul-2019 07:02:03 America/New_York] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''','0','','','','','','{\"ip\":\"130.231.169.157\",\"useragent\":\"Mozilla\\/5.0' at line 1
+[08-Jul-2019 07:28:42 America/New_York] PHP Notice:  Undefined index: task_id in /home/snapkdlp/taskmart.online/php/putprogress.php on line 6
+[08-Jul-2019 07:28:42 America/New_York] PHP Notice:  Undefined index: user_id in /home/snapkdlp/taskmart.online/php/putprogress.php on line 7
+[08-Jul-2019 07:28:42 America/New_York] PHP Notice:  Undefined index: S1 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 8
+[08-Jul-2019 07:28:42 America/New_York] PHP Notice:  Undefined index: S2 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 9
+[08-Jul-2019 07:28:42 America/New_York] PHP Notice:  Undefined index: S3 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 10
+[08-Jul-2019 07:28:42 America/New_York] PHP Notice:  Undefined index: S4 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 11
+[08-Jul-2019 07:28:42 America/New_York] PHP Notice:  Undefined index: session_id in /home/snapkdlp/taskmart.online/php/putprogress.php on line 12
+[08-Jul-2019 07:28:42 America/New_York] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[08-Jul-2019 07:28:42 America/New_York] PHP Notice:  Undefined index: HTTP_REFERER in /home/snapkdlp/taskmart.online/php/putprogress.php on line 23
+[08-Jul-2019 07:28:42 America/New_York] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''','0','','','','','','{\"ip\":\"130.231.165.243\",\"useragent\":\"Mozilla\\/5.0' at line 1
+[08-Jul-2019 07:32:56 America/New_York] PHP Notice:  Undefined index: task_id in /home/snapkdlp/taskmart.online/php/putprogress.php on line 6
+[08-Jul-2019 07:32:56 America/New_York] PHP Notice:  Undefined index: user_id in /home/snapkdlp/taskmart.online/php/putprogress.php on line 7
+[08-Jul-2019 07:32:56 America/New_York] PHP Notice:  Undefined index: S1 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 8
+[08-Jul-2019 07:32:56 America/New_York] PHP Notice:  Undefined index: S2 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 9
+[08-Jul-2019 07:32:56 America/New_York] PHP Notice:  Undefined index: S3 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 10
+[08-Jul-2019 07:32:56 America/New_York] PHP Notice:  Undefined index: S4 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 11
+[08-Jul-2019 07:32:56 America/New_York] PHP Notice:  Undefined index: session_id in /home/snapkdlp/taskmart.online/php/putprogress.php on line 12
+[08-Jul-2019 07:32:56 America/New_York] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[08-Jul-2019 07:32:56 America/New_York] PHP Notice:  Undefined index: HTTP_REFERER in /home/snapkdlp/taskmart.online/php/putprogress.php on line 23
+[08-Jul-2019 07:32:56 America/New_York] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''','0','','','','','','{\"ip\":\"130.231.200.28\",\"useragent\":\"Mozilla\\/5.0 ' at line 1
+[08-Jul-2019 07:57:17 America/New_York] PHP Notice:  Undefined index: task_id in /home/snapkdlp/taskmart.online/php/putprogress.php on line 6
+[08-Jul-2019 07:57:17 America/New_York] PHP Notice:  Undefined index: user_id in /home/snapkdlp/taskmart.online/php/putprogress.php on line 7
+[08-Jul-2019 07:57:17 America/New_York] PHP Notice:  Undefined index: S1 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 8
+[08-Jul-2019 07:57:17 America/New_York] PHP Notice:  Undefined index: S2 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 9
+[08-Jul-2019 07:57:17 America/New_York] PHP Notice:  Undefined index: S3 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 10
+[08-Jul-2019 07:57:17 America/New_York] PHP Notice:  Undefined index: S4 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 11
+[08-Jul-2019 07:57:17 America/New_York] PHP Notice:  Undefined index: session_id in /home/snapkdlp/taskmart.online/php/putprogress.php on line 12
+[08-Jul-2019 07:57:17 America/New_York] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[08-Jul-2019 07:57:17 America/New_York] PHP Notice:  Undefined index: HTTP_REFERER in /home/snapkdlp/taskmart.online/php/putprogress.php on line 23
+[08-Jul-2019 07:57:17 America/New_York] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''','0','','','','','','{\"ip\":\"130.231.165.243\",\"useragent\":\"Mozilla\\/5.0' at line 1
+[08-Jul-2019 07:59:27 America/New_York] PHP Notice:  Undefined index: task_id in /home/snapkdlp/taskmart.online/php/putprogress.php on line 5
+[08-Jul-2019 07:59:27 America/New_York] PHP Notice:  Undefined index: user_id in /home/snapkdlp/taskmart.online/php/putprogress.php on line 6
+[08-Jul-2019 07:59:27 America/New_York] PHP Notice:  Undefined index: S1 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 7
+[08-Jul-2019 07:59:27 America/New_York] PHP Notice:  Undefined index: S2 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 8
+[08-Jul-2019 07:59:27 America/New_York] PHP Notice:  Undefined index: S3 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 9
+[08-Jul-2019 07:59:27 America/New_York] PHP Notice:  Undefined index: S4 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 10
+[08-Jul-2019 07:59:27 America/New_York] PHP Notice:  Undefined index: session_id in /home/snapkdlp/taskmart.online/php/putprogress.php on line 11
+[08-Jul-2019 07:59:27 America/New_York] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[08-Jul-2019 07:59:27 America/New_York] PHP Notice:  Undefined index: HTTP_REFERER in /home/snapkdlp/taskmart.online/php/putprogress.php on line 22
+[08-Jul-2019 07:59:27 America/New_York] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''','0','','','','','','{\"ip\":\"130.231.165.243\",\"useragent\":\"Mozilla\\/5.0' at line 1
+[08-Jul-2019 08:45:16 America/New_York] PHP Notice:  Undefined index: task_id in /home/snapkdlp/taskmart.online/php/putprogress.php on line 5
+[08-Jul-2019 08:45:16 America/New_York] PHP Notice:  Undefined index: user_id in /home/snapkdlp/taskmart.online/php/putprogress.php on line 6
+[08-Jul-2019 08:45:16 America/New_York] PHP Notice:  Undefined index: S1 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 7
+[08-Jul-2019 08:45:16 America/New_York] PHP Notice:  Undefined index: S2 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 8
+[08-Jul-2019 08:45:16 America/New_York] PHP Notice:  Undefined index: S3 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 9
+[08-Jul-2019 08:45:16 America/New_York] PHP Notice:  Undefined index: S4 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 10
+[08-Jul-2019 08:45:16 America/New_York] PHP Notice:  Undefined index: session_id in /home/snapkdlp/taskmart.online/php/putprogress.php on line 11
+[08-Jul-2019 08:45:16 America/New_York] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[08-Jul-2019 08:45:16 America/New_York] PHP Notice:  Undefined index: HTTP_REFERER in /home/snapkdlp/taskmart.online/php/putprogress.php on line 22
+[08-Jul-2019 08:45:16 America/New_York] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''','0','','','','','','{\"ip\":\"130.231.165.243\",\"useragent\":\"Mozilla\\/5.0' at line 1
+[08-Jul-2019 08:45:25 America/New_York] PHP Notice:  Undefined index: task_id in /home/snapkdlp/taskmart.online/php/putprogress.php on line 5
+[08-Jul-2019 08:45:25 America/New_York] PHP Notice:  Undefined index: user_id in /home/snapkdlp/taskmart.online/php/putprogress.php on line 6
+[08-Jul-2019 08:45:25 America/New_York] PHP Notice:  Undefined index: S1 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 7
+[08-Jul-2019 08:45:25 America/New_York] PHP Notice:  Undefined index: S2 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 8
+[08-Jul-2019 08:45:25 America/New_York] PHP Notice:  Undefined index: S3 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 9
+[08-Jul-2019 08:45:25 America/New_York] PHP Notice:  Undefined index: S4 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 10
+[08-Jul-2019 08:45:25 America/New_York] PHP Notice:  Undefined index: session_id in /home/snapkdlp/taskmart.online/php/putprogress.php on line 11
+[08-Jul-2019 08:45:25 America/New_York] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[08-Jul-2019 08:45:25 America/New_York] PHP Notice:  Undefined index: HTTP_REFERER in /home/snapkdlp/taskmart.online/php/putprogress.php on line 22
+[08-Jul-2019 08:45:25 America/New_York] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''','0','','','','','','{\"ip\":\"130.231.165.243\",\"useragent\":\"Mozilla\\/5.0' at line 1
+[08-Jul-2019 08:45:27 America/New_York] PHP Notice:  Undefined index: task_id in /home/snapkdlp/taskmart.online/php/putprogress.php on line 5
+[08-Jul-2019 08:45:27 America/New_York] PHP Notice:  Undefined index: user_id in /home/snapkdlp/taskmart.online/php/putprogress.php on line 6
+[08-Jul-2019 08:45:27 America/New_York] PHP Notice:  Undefined index: S1 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 7
+[08-Jul-2019 08:45:27 America/New_York] PHP Notice:  Undefined index: S2 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 8
+[08-Jul-2019 08:45:27 America/New_York] PHP Notice:  Undefined index: S3 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 9
+[08-Jul-2019 08:45:27 America/New_York] PHP Notice:  Undefined index: S4 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 10
+[08-Jul-2019 08:45:27 America/New_York] PHP Notice:  Undefined index: session_id in /home/snapkdlp/taskmart.online/php/putprogress.php on line 11
+[08-Jul-2019 08:45:27 America/New_York] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[08-Jul-2019 08:45:27 America/New_York] PHP Notice:  Undefined index: HTTP_REFERER in /home/snapkdlp/taskmart.online/php/putprogress.php on line 22
+[08-Jul-2019 08:45:27 America/New_York] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''','0','','','','','','{\"ip\":\"130.231.165.243\",\"useragent\":\"Mozilla\\/5.0' at line 1
+[12-Jul-2019 05:53:40 America/New_York] PHP Notice:  Undefined index: task_id in /home/snapkdlp/taskmart.online/php/putprogress.php on line 6
+[12-Jul-2019 05:53:40 America/New_York] PHP Notice:  Undefined index: user_id in /home/snapkdlp/taskmart.online/php/putprogress.php on line 7
+[12-Jul-2019 05:53:40 America/New_York] PHP Notice:  Undefined index: S1 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 8
+[12-Jul-2019 05:53:40 America/New_York] PHP Notice:  Undefined index: S2 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 9
+[12-Jul-2019 05:53:40 America/New_York] PHP Notice:  Undefined index: S3 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 10
+[12-Jul-2019 05:53:40 America/New_York] PHP Notice:  Undefined index: S4 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 11
+[12-Jul-2019 05:53:40 America/New_York] PHP Notice:  Undefined index: session_id in /home/snapkdlp/taskmart.online/php/putprogress.php on line 12
+[12-Jul-2019 05:53:40 America/New_York] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[12-Jul-2019 05:53:40 America/New_York] PHP Notice:  Undefined index: HTTP_REFERER in /home/snapkdlp/taskmart.online/php/putprogress.php on line 23
+[12-Jul-2019 05:53:40 America/New_York] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''','0','','','','','','{\"ip\":\"130.231.169.157\",\"useragent\":\"Mozilla\\/5.0' at line 1
+[12-Jul-2019 05:58:58 America/New_York] PHP Notice:  Undefined index: task_id in /home/snapkdlp/taskmart.online/php/putprogress.php on line 6
+[12-Jul-2019 05:58:58 America/New_York] PHP Notice:  Undefined index: user_id in /home/snapkdlp/taskmart.online/php/putprogress.php on line 7
+[12-Jul-2019 05:58:58 America/New_York] PHP Notice:  Undefined index: S1 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 8
+[12-Jul-2019 05:58:58 America/New_York] PHP Notice:  Undefined index: S2 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 9
+[12-Jul-2019 05:58:58 America/New_York] PHP Notice:  Undefined index: S3 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 10
+[12-Jul-2019 05:58:58 America/New_York] PHP Notice:  Undefined index: S4 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 11
+[12-Jul-2019 05:58:58 America/New_York] PHP Notice:  Undefined index: session_id in /home/snapkdlp/taskmart.online/php/putprogress.php on line 12
+[12-Jul-2019 05:58:58 America/New_York] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[12-Jul-2019 05:58:58 America/New_York] PHP Notice:  Undefined index: HTTP_REFERER in /home/snapkdlp/taskmart.online/php/putprogress.php on line 23
+[12-Jul-2019 05:58:58 America/New_York] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''','0','','','','','','{\"ip\":\"130.231.200.28\",\"useragent\":\"Mozilla\\/5.0 ' at line 1
+[15-Jul-2019 14:21:18 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/php/taskedit.php on line 2
+[15-Jul-2019 14:21:18 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/php/taskedit.php on line 2
+[15-Jul-2019 14:21:18 America/New_York] PHP Notice:  Undefined variable: conn in /home/snapkdlp/taskmart.online/php/taskedit.php on line 6
+[15-Jul-2019 14:21:18 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/snapkdlp/taskmart.online/php/taskedit.php on line 6
+[15-Jul-2019 14:21:18 America/New_York] PHP Notice:  Undefined variable: conn in /home/snapkdlp/taskmart.online/php/taskedit.php on line 9
+[15-Jul-2019 14:21:18 America/New_York] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/snapkdlp/taskmart.online/php/taskedit.php on line 9
+[15-Jul-2019 14:21:18 America/New_York] PHP Notice:  Undefined variable: conn in /home/snapkdlp/taskmart.online/php/taskedit.php on line 12
+[15-Jul-2019 14:21:18 America/New_York] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/snapkdlp/taskmart.online/php/taskedit.php on line 12
+[15-Jul-2019 14:21:21 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/php/taskedit.php on line 2
+[15-Jul-2019 14:21:21 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/php/taskedit.php on line 2
+[15-Jul-2019 14:21:21 America/New_York] PHP Notice:  Undefined variable: conn in /home/snapkdlp/taskmart.online/php/taskedit.php on line 6
+[15-Jul-2019 14:21:21 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/snapkdlp/taskmart.online/php/taskedit.php on line 6
+[15-Jul-2019 14:21:21 America/New_York] PHP Notice:  Undefined variable: conn in /home/snapkdlp/taskmart.online/php/taskedit.php on line 9
+[15-Jul-2019 14:21:21 America/New_York] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/snapkdlp/taskmart.online/php/taskedit.php on line 9
+[15-Jul-2019 14:21:21 America/New_York] PHP Notice:  Undefined variable: conn in /home/snapkdlp/taskmart.online/php/taskedit.php on line 12
+[15-Jul-2019 14:21:21 America/New_York] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/snapkdlp/taskmart.online/php/taskedit.php on line 12
+[15-Jul-2019 14:21:39 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/php/taskedit.php on line 2
+[15-Jul-2019 14:21:39 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/php/taskedit.php on line 2
+[15-Jul-2019 14:21:39 America/New_York] PHP Notice:  Undefined variable: conn in /home/snapkdlp/taskmart.online/php/taskedit.php on line 6
+[15-Jul-2019 14:21:39 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/snapkdlp/taskmart.online/php/taskedit.php on line 6
+[15-Jul-2019 14:21:39 America/New_York] PHP Notice:  Undefined variable: conn in /home/snapkdlp/taskmart.online/php/taskedit.php on line 9
+[15-Jul-2019 14:21:39 America/New_York] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/snapkdlp/taskmart.online/php/taskedit.php on line 9
+[15-Jul-2019 14:21:39 America/New_York] PHP Notice:  Undefined variable: conn in /home/snapkdlp/taskmart.online/php/taskedit.php on line 12
+[15-Jul-2019 14:21:39 America/New_York] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/snapkdlp/taskmart.online/php/taskedit.php on line 12
+[15-Jul-2019 14:21:44 America/New_York] PHP Warning:  include(db_connection.php): failed to open stream: No such file or directory in /home/snapkdlp/taskmart.online/php/taskedit.php on line 2
+[15-Jul-2019 14:21:44 America/New_York] PHP Warning:  include(): Failed opening 'db_connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/snapkdlp/taskmart.online/php/taskedit.php on line 2
+[15-Jul-2019 14:21:44 America/New_York] PHP Notice:  Undefined variable: conn in /home/snapkdlp/taskmart.online/php/taskedit.php on line 6
+[15-Jul-2019 14:21:44 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/snapkdlp/taskmart.online/php/taskedit.php on line 6
+[15-Jul-2019 14:21:44 America/New_York] PHP Notice:  Undefined variable: conn in /home/snapkdlp/taskmart.online/php/taskedit.php on line 9
+[15-Jul-2019 14:21:44 America/New_York] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/snapkdlp/taskmart.online/php/taskedit.php on line 9
+[15-Jul-2019 14:21:44 America/New_York] PHP Notice:  Undefined variable: conn in /home/snapkdlp/taskmart.online/php/taskedit.php on line 12
+[15-Jul-2019 14:21:44 America/New_York] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/snapkdlp/taskmart.online/php/taskedit.php on line 12
+[15-Jul-2019 14:47:48 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function test_input() in /home/snapkdlp/taskmart.online/php/taskedit.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/php/taskedit.php on line 16
+[15-Jul-2019 14:51:14 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function submit() in /home/snapkdlp/taskmart.online/php/taskedit.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/php/taskedit.php on line 16
+[15-Jul-2019 14:51:18 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function submit() in /home/snapkdlp/taskmart.online/php/taskedit.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/php/taskedit.php on line 16
+[15-Jul-2019 14:53:13 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function submit() in /home/snapkdlp/taskmart.online/php/taskedit.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/php/taskedit.php on line 16
+[15-Jul-2019 14:53:18 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function submit() in /home/snapkdlp/taskmart.online/php/taskedit.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/php/taskedit.php on line 16
+[15-Jul-2019 14:55:06 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function submit() in /home/snapkdlp/taskmart.online/php/taskedit.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/php/taskedit.php on line 16
+[15-Jul-2019 14:55:10 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function submit() in /home/snapkdlp/taskmart.online/php/taskedit.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/php/taskedit.php on line 16
+[15-Jul-2019 14:55:12 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function submit() in /home/snapkdlp/taskmart.online/php/taskedit.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/php/taskedit.php on line 16
+[15-Jul-2019 14:55:14 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function submit() in /home/snapkdlp/taskmart.online/php/taskedit.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/php/taskedit.php on line 16
+[15-Jul-2019 14:55:15 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function submit() in /home/snapkdlp/taskmart.online/php/taskedit.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/php/taskedit.php on line 16
+[15-Jul-2019 14:55:16 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function submit() in /home/snapkdlp/taskmart.online/php/taskedit.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/php/taskedit.php on line 16
+[15-Jul-2019 14:55:17 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function submit() in /home/snapkdlp/taskmart.online/php/taskedit.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/php/taskedit.php on line 16
+[15-Jul-2019 14:55:17 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function submit() in /home/snapkdlp/taskmart.online/php/taskedit.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/php/taskedit.php on line 16
+[15-Jul-2019 14:55:17 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function submit() in /home/snapkdlp/taskmart.online/php/taskedit.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/php/taskedit.php on line 16
+[15-Jul-2019 14:55:18 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function submit() in /home/snapkdlp/taskmart.online/php/taskedit.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/php/taskedit.php on line 16
+[15-Jul-2019 14:55:19 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function submit() in /home/snapkdlp/taskmart.online/php/taskedit.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/php/taskedit.php on line 16
+[15-Jul-2019 14:57:33 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function submit() in /home/snapkdlp/taskmart.online/php/taskedit.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/php/taskedit.php on line 16
+[15-Jul-2019 14:57:37 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function submit() in /home/snapkdlp/taskmart.online/php/taskedit.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/php/taskedit.php on line 16
+[15-Jul-2019 14:57:38 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function submit() in /home/snapkdlp/taskmart.online/php/taskedit.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/php/taskedit.php on line 16
+[15-Jul-2019 14:57:39 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function submit() in /home/snapkdlp/taskmart.online/php/taskedit.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/php/taskedit.php on line 16
+[15-Jul-2019 14:57:40 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function submit() in /home/snapkdlp/taskmart.online/php/taskedit.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/php/taskedit.php on line 16
+[15-Jul-2019 14:58:20 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function submit() in /home/snapkdlp/taskmart.online/php/taskedit.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/php/taskedit.php on line 9
+[15-Jul-2019 14:58:24 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function submit() in /home/snapkdlp/taskmart.online/php/taskedit.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/php/taskedit.php on line 9
+[15-Jul-2019 14:58:53 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function submit() in /home/snapkdlp/taskmart.online/php/taskedit.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/php/taskedit.php on line 9
+[15-Jul-2019 15:02:23 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function submit() in /home/snapkdlp/taskmart.online/php/taskedit.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/php/taskedit.php on line 16
+[15-Jul-2019 15:02:29 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function submit() in /home/snapkdlp/taskmart.online/php/taskedit.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/php/taskedit.php on line 16
+[15-Jul-2019 15:02:32 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function submit() in /home/snapkdlp/taskmart.online/php/taskedit.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/php/taskedit.php on line 16
+[15-Jul-2019 15:02:34 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function submit() in /home/snapkdlp/taskmart.online/php/taskedit.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/php/taskedit.php on line 16
+[15-Jul-2019 15:04:08 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function submit() in /home/snapkdlp/taskmart.online/php/taskedit.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/php/taskedit.php on line 16
+[15-Jul-2019 15:06:02 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function submit() in /home/snapkdlp/taskmart.online/php/taskedit.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/php/taskedit.php on line 16
+[15-Jul-2019 15:06:04 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function submit() in /home/snapkdlp/taskmart.online/php/taskedit.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/php/taskedit.php on line 16
+[15-Jul-2019 15:06:06 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function submit() in /home/snapkdlp/taskmart.online/php/taskedit.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/php/taskedit.php on line 16
+[15-Jul-2019 15:06:11 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function submit() in /home/snapkdlp/taskmart.online/php/taskedit.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/php/taskedit.php on line 16
+[15-Jul-2019 15:06:22 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function submit() in /home/snapkdlp/taskmart.online/php/taskedit.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/php/taskedit.php on line 16
+[15-Jul-2019 15:06:23 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function submit() in /home/snapkdlp/taskmart.online/php/taskedit.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/snapkdlp/taskmart.online/php/taskedit.php on line 16
+[16-Jul-2019 11:20:47 America/New_York] PHP Notice:  Undefined variable: reward in /home/snapkdlp/taskmart.online/php/taskedit.php on line 27
+[16-Jul-2019 11:20:47 America/New_York] PHP Notice:  Undefined variable: image in /home/snapkdlp/taskmart.online/php/taskedit.php on line 27
+[16-Jul-2019 11:22:02 America/New_York] PHP Notice:  Undefined variable: reward in /home/snapkdlp/taskmart.online/php/taskedit.php on line 27
+[16-Jul-2019 11:22:02 America/New_York] PHP Notice:  Undefined variable: image in /home/snapkdlp/taskmart.online/php/taskedit.php on line 27
+[16-Jul-2019 11:25:04 America/New_York] PHP Notice:  Undefined variable: reward in /home/snapkdlp/taskmart.online/php/taskedit.php on line 27
+[16-Jul-2019 11:25:04 America/New_York] PHP Notice:  Undefined variable: image in /home/snapkdlp/taskmart.online/php/taskedit.php on line 27
+[16-Jul-2019 11:28:18 America/New_York] PHP Notice:  Undefined variable: reward in /home/snapkdlp/taskmart.online/php/taskedit.php on line 26
+[16-Jul-2019 11:30:14 America/New_York] PHP Notice:  Undefined variable: reward in /home/snapkdlp/taskmart.online/php/taskedit.php on line 26
+[20-Jul-2019 18:05:15 America/New_York] PHP Notice:  Undefined index: task_id in /home/snapkdlp/taskmart.online/php/putprogress.php on line 6
+[20-Jul-2019 18:05:15 America/New_York] PHP Notice:  Undefined index: user_id in /home/snapkdlp/taskmart.online/php/putprogress.php on line 7
+[20-Jul-2019 18:05:15 America/New_York] PHP Notice:  Undefined index: S1 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 8
+[20-Jul-2019 18:05:15 America/New_York] PHP Notice:  Undefined index: S2 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 9
+[20-Jul-2019 18:05:15 America/New_York] PHP Notice:  Undefined index: S3 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 10
+[20-Jul-2019 18:05:15 America/New_York] PHP Notice:  Undefined index: S4 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 11
+[20-Jul-2019 18:05:15 America/New_York] PHP Notice:  Undefined index: session_id in /home/snapkdlp/taskmart.online/php/putprogress.php on line 12
+[20-Jul-2019 18:05:15 America/New_York] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[20-Jul-2019 18:05:15 America/New_York] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''','0','','','','','','{\"ip\":\"130.231.165.243\",\"useragent\":\"Mozilla\\/5.0' at line 1
+[20-Jul-2019 18:05:58 America/New_York] PHP Notice:  Undefined index: task_id in /home/snapkdlp/taskmart.online/php/putprogress.php on line 6
+[20-Jul-2019 18:05:58 America/New_York] PHP Notice:  Undefined index: user_id in /home/snapkdlp/taskmart.online/php/putprogress.php on line 7
+[20-Jul-2019 18:05:58 America/New_York] PHP Notice:  Undefined index: S1 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 8
+[20-Jul-2019 18:05:58 America/New_York] PHP Notice:  Undefined index: S2 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 9
+[20-Jul-2019 18:05:58 America/New_York] PHP Notice:  Undefined index: S3 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 10
+[20-Jul-2019 18:05:58 America/New_York] PHP Notice:  Undefined index: S4 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 11
+[20-Jul-2019 18:05:58 America/New_York] PHP Notice:  Undefined index: session_id in /home/snapkdlp/taskmart.online/php/putprogress.php on line 12
+[20-Jul-2019 18:05:58 America/New_York] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[20-Jul-2019 18:05:58 America/New_York] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''','0','','','','','','{\"ip\":\"130.231.165.243\",\"useragent\":\"Mozilla\\/5.0' at line 1
+[20-Jul-2019 18:06:00 America/New_York] PHP Notice:  Undefined index: task_id in /home/snapkdlp/taskmart.online/php/putprogress.php on line 6
+[20-Jul-2019 18:06:00 America/New_York] PHP Notice:  Undefined index: user_id in /home/snapkdlp/taskmart.online/php/putprogress.php on line 7
+[20-Jul-2019 18:06:00 America/New_York] PHP Notice:  Undefined index: S1 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 8
+[20-Jul-2019 18:06:00 America/New_York] PHP Notice:  Undefined index: S2 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 9
+[20-Jul-2019 18:06:00 America/New_York] PHP Notice:  Undefined index: S3 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 10
+[20-Jul-2019 18:06:00 America/New_York] PHP Notice:  Undefined index: S4 in /home/snapkdlp/taskmart.online/php/putprogress.php on line 11
+[20-Jul-2019 18:06:00 America/New_York] PHP Notice:  Undefined index: session_id in /home/snapkdlp/taskmart.online/php/putprogress.php on line 12
+[20-Jul-2019 18:06:00 America/New_York] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[20-Jul-2019 18:06:00 America/New_York] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''','0','','','','','','{\"ip\":\"130.231.165.243\",\"useragent\":\"Mozilla\\/5.0' at line 1
+[20-Jul-2019 18:14:10 America/New_York] PHP Notice:  Undefined index: task_secrete in /home/snapkdlp/taskmart.online/php/putprogress.php on line 3
+[20-Jul-2019 18:14:13 America/New_York] PHP Notice:  Undefined index: task_secrete in /home/snapkdlp/taskmart.online/php/putprogress.php on line 3

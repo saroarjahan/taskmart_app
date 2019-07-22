@@ -11,6 +11,9 @@ var app = new Vue({
     userImage:null,
     imageShow:false,
     loginUrl:'http://'+location.hostname+"/auth/login.php",
+    path:'php',
+    file:'gettasks.',
+    type:'php',
     url:'http://'+location.hostname,
     loginStatus:"Login",
     adminLogin:false,
@@ -19,7 +22,7 @@ var app = new Vue({
   mounted () {
       //Get User ALl events druing initial load
       axios
-      .get('http://'+this.host+'/php/gettasks.php')
+      .get('http://'+this.host+'/'+this.path+'/'+this.file+this.type)
       .then(response => (this.info = response));
   },
 

@@ -53,7 +53,7 @@ include 'header.php';
 					VALUES ('$task_secrete', '$user_id', '$reward')";
 
 					if ($conn->query($sql_insert) === TRUE) {
-					    echo "New record created successfully";
+					    echo "<h3>New record created successfully</h3>";
 					} else {
 					    echo "Error: " . $sql . "<br>" . $conn->error;
 					}

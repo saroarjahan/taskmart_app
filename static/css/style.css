@@ -876,19 +876,23 @@ span.red {
 
 
 button.addEvent {
-
     width: 100%;
-
     border: 0px;
-
     border-radius: 5px;
-
     height: 35px;
-
     background: #045304;
-
     color: white;
+}
 
+
+/*Admin CSS*/
+
+p.share {
+    font-size: 14px;
+    color: #00af78;
+}
+spa.sharetext {
+    font-weight: bold;
 }
 
 @media only screen and (min-width: 1170px) {
