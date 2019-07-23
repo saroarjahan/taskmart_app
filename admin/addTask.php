@@ -4,9 +4,9 @@ include 'header.php';
 
 <section class="reg" >
 	<div class="register_student">
-		<div class="container height">
+		<div class="container">
 		  <div class="row">
-		  	<h3 class="Adpost">{{access}}</h3><br>
+		  	<h3 class="Adpost" style="padding-top: 16px;">{{access}}</h3><br>
 		    <div class="col-md-6 offset-md-3" v-if="adminLogin==='109346374245203627270'">
                <h3 class="Adpost">Add New Taks</h3><br>
                	<form action="addTask.php" method="post">

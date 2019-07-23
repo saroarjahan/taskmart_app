@@ -43,7 +43,7 @@
 
 		<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
 
-		  <a class="navbar-brand logo" href="./index.php"><img src="../static/css/image/logo.png"></a>
+		  <a class="navbar-brand logo" href="../index.php"><img src="../static/css/image/logo.png"></a>
 
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 

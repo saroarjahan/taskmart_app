@@ -10,7 +10,7 @@ include 'header.php';
 	<div class="container main">
 		<div class="row" >
 			<h3 class="Adpost">{{access}}</h3><br>
-			<table class="table">
+			<table class="table" v-if="adminLogin==='109346374245203627270'">
 				<thead>
 				<tr>
 				  <th scope="col">#</th>
@@ -20,7 +20,7 @@ include 'header.php';
 				</tr>
 				</thead>
 
-					<tbody class="col-md-12" v-for="(data,key) in rewards.data" v-if="adminLogin==='109346374245203627270'">
+					<tbody class="col-md-12" v-for="(data,key) in rewards.data" >
 						<tr>
 						  <th scope="row">{{key+1}}</th>
 						  <td>{{data.user_id}}</td>

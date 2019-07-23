@@ -18,7 +18,7 @@ include 'header.php';
  				 <spa class="sharetext">Return url:</span>
  				 <p class="share">{{url}}/completed/?task_secrete={{data.secrete/2354}}</p>
 
- 				 <a :href="data.URL+'?userID='+userId+'&taskID='+data.id"><button class="btn btn-info">Participate</button></a> <a :href="url+'/admin/deleteTask.php?task_id='+data.id"><button class="btn btn-info btn-danger"><i class="far fa-trash-alt"></i> Delete</button></a>
+ 				 <a :href="data.URL"><button class="btn btn-info">Participate</button></a> <a :href="url+'/admin/deleteTask.php?task_id='+data.id"><button class="btn btn-info btn-danger"><i class="far fa-trash-alt"></i> Delete</button></a>
 
 			</div>    
 

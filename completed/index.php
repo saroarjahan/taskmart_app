@@ -37,29 +37,38 @@ include 'header.php';
 				//Check already same task_secrete enter twice for same user_id
 				$sql_check = "SELECT task_secrete, user_id FROM completed_tasks";			
   				$result_check = $conn->query($sql_check);
-
-				if ($result_check->num_rows > 0) {
-				    while($row = $result_check->fetch_assoc()) {
-				    	if($task_secrete == $row["task_secrete"] && $user_id == $row["user_id"] ){
-				    		$check = "exist";
-				    		echo "<h3>Secrete Id already Used !!!</h3>";
-				    	}	        
-				    }
+  				if (!empty($task_secrete)) {//if task secrete id is empty
+					if ($result_check->num_rows > 0) {
+					    while($row = $result_check->fetch_assoc()) {
+					    	if($task_secrete == $row["task_secrete"] && $user_id == $row["user_id"] ){
+					    		$check = "exist";
+					    		echo "<h3>Secrete Id already Used !!!</h3>";
+					    	}	        
+					    }
+					}
+				}else{
+					echo "<h3>Secrete Id is not found!!!</h3>";
 				}
+				
 
 				//insert user id, user_name, reward and task_secrete to completed_task database
-				if (!empty($reward) && $check!="exist") {
+				if (!empty($user_id)) {
+					if (!empty($reward) && $check!="exist" && !empty($task_secrete)) {
 					$sql_insert = "INSERT INTO completed_tasks (task_secrete, user_id, reward)
 					VALUES ('$task_secrete', '$user_id', '$reward')";
 
-					if ($conn->query($sql_insert) === TRUE) {
-					    echo "<h3>New record created successfully</h3>";
-					} else {
-					    echo "Error: " . $sql . "<br>" . $conn->error;
+						if ($conn->query($sql_insert) === TRUE) {
+						    echo "<h3>Task Completed  successfully, Thank You</h3>";
+						} else {
+						    echo "Error: " . $sql . "<br>" . $conn->error;
+						}
+					}else{
+						echo "<h3>Secrete Id is not valid!!!</h3>";
 					}
 				}else{
-					echo "<h3>Secrete Id is not valid!!!</h3>";
+					echo "<h3>Please loggoed to continue!!!</h3>";
 				}
+				
 
 				$conn->close();
 
