@@ -5,6 +5,7 @@ var app = new Vue({
   data: {
     title:null,
     info:null,
+    rewards:null,
     avatar:true,
     host:location.hostname,
     userId:null,
@@ -13,6 +14,7 @@ var app = new Vue({
     loginUrl:'http://'+location.hostname+"/auth/login.php",
     path:'php',
     file:'gettasks.',
+    file2:'getRewards.',
     type:'php',
     url:'http://'+location.hostname,
     loginStatus:"Login",
@@ -24,12 +26,12 @@ var app = new Vue({
       axios
       .get('http://'+this.host+'/'+this.path+'/'+this.file+this.type)
       .then(response => (this.info = response));
+      axios
+      .get('http://'+this.host+'/'+this.path+'/'+this.file2+this.type)
+      .then(response => (this.rewards = response));
   },
 
-  methods: {  
-
-
- 
+  methods: {
   },  
 
 })
@@ -38,7 +40,6 @@ var app = new Vue({
 $(document).ready(function () {
 
         var url = window.location;
-
         $('ul.nav a[href="'+ url +'"]').parent().addClass('active');
         $('ul.nav a').filter(function() {
              return this.href == url;

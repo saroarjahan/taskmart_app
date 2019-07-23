@@ -62,6 +62,9 @@
 			      <li class="nav-item">
 			        <a class="nav-link" href="addTask.php">Add Tasks</a>
 			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="rewards.php">Participant Rewards</a>
+			      </li>
 
 			</ul>
 
