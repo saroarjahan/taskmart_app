@@ -85,7 +85,7 @@
 
 		    <ul class="log">
 
-			        {{totalReward}} <i v-show="avatar" class="fas fa-user-alt"></i> <img v-show="imageShow" :src="userImage"><a class="nav-link disabled" :href="loginUrl">{{loginStatus}}</a>
+			        <img class="gif" v-show="imageShow" src="./static/css/image/doller.gif"><a class="nav-link disabled" href="#">{{totalReward}}</a> <i v-show="avatar" class="fas fa-user-alt"></i> <img v-show="imageShow" :src="userImage"><a class="nav-link disabled" :href="loginUrl">{{loginStatus}}</a>
 
 		    </ul>
 

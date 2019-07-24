@@ -884,6 +884,18 @@ button.addEvent {
     color: white;
 }
 
+/*navigation*/
+.log .nav-link {
+    display: block;
+    padding: 10px 4px;
+    margin-right: 10px;
+}
+
+.gif{
+    width: 16px !important;
+    height: 16px !important;
+    margin-top: 15px !important;
+    transform: rotate(90deg);}
 
 /*Admin CSS*/
 
