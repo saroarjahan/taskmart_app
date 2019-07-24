@@ -66,7 +66,7 @@ include 'header.php';
 						echo "<h3>Secrete Id is not valid!!!</h3>";
 					}
 				}else{
-					echo "<h3>Please loggoed to continue!!!</h3>";
+					echo "<h3>Please log in to continue!!!</h3>";
 				}
 				
 

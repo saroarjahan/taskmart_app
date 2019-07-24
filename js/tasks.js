@@ -3,13 +3,15 @@ var app = new Vue({
   el: '#appEvents',
 
   data: {
-    title:null,
-    info:null,
-    rewards:null,
+    title:'',
+    info:'',
+    rewards:'',
+    totalReward:0,
     avatar:true,
     host:location.hostname,
-    userId:null,
-    userImage:null,
+    userId:'',
+    userIdFull:'',
+    userImage:'',
     imageShow:false,
     loginUrl:'http://'+location.hostname+"/auth/login.php",
     path:'php',
@@ -31,7 +33,17 @@ var app = new Vue({
       .then(response => (this.rewards = response));
   },
 
-  methods: {
+  computed: {
+    rewardCal: function (){
+
+      for (x in this.rewards.data ){
+        
+        if(this.rewards.data[x].user_id == this.userIdFull){
+          this.totalReward += parseInt(this.rewards.data[x].reward);
+        }
+      }
+    }
+    
   },  
 
 })
@@ -49,6 +61,7 @@ $(document).ready(function () {
 //Get usaer ID
 setInterval(function(){ 
   app.userId=document.getElementById('uniqueId').innerHTML;
+  app.userIdFull=app.userId;
   app.userId=app.userId.substring('google-oauth2|'.length);
   app.userImage=document.getElementById('proImage').src;
   if (app.userId) {
@@ -61,5 +74,5 @@ setInterval(function(){
       app.access=null;
     }
   }
-}, 10);
+}, 200);
 

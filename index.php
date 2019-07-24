@@ -11,8 +11,8 @@ include 'header.php';
 <section class="events">
 
 	<div class="container main">
-		<div class="row" >
-
+		<div class="row">
+			
 			<div class="col-md-3" v-for="data in info.data">
 
  				 <img :src="data.image">

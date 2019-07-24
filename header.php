@@ -85,7 +85,7 @@
 
 		    <ul class="log">
 
-			        <i v-show="avatar" class="fas fa-user-alt"></i> <img v-show="imageShow" :src="userImage"><a class="nav-link disabled" :href="loginUrl">{{loginStatus}}</a>
+			        {{totalReward}} <i v-show="avatar" class="fas fa-user-alt"></i> <img v-show="imageShow" :src="userImage"><a class="nav-link disabled" :href="loginUrl">{{loginStatus}}</a>
 
 		    </ul>
 
@@ -95,7 +95,7 @@
 
     </div>
 
-
+{{rewardCal}}
 
 
 
