@@ -9,7 +9,9 @@ include 'header.php';
 
 	<div class="container main">
 		<div class="row" >
-			<h3 class="Adpost">{{access}}</h3><br>
+		  	<img class="warn" v-show="view" :src="warnimg">
+			<br>
+			<h3 class="Adpost" v-show="view">{{access}}</h3>
 			<table class="table" v-if="adminLogin==='109346374245203627270'">
 				<thead>
 				<tr>

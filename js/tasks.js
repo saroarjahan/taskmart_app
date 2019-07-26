@@ -21,7 +21,9 @@ var app = new Vue({
     url:'http://'+location.hostname,
     loginStatus:"Login",
     adminLogin:false,
-    access:"Sorry You do not have any access in this page",
+    access:'Sorry You do not have any access in this page !!',
+    warnimg:'../static/css/image/warning.png',
+    view:false,
   },
   mounted () {
       //Get User ALl events druing initial load
@@ -60,6 +62,7 @@ $(document).ready(function () {
 
 //Get usaer ID
 setInterval(function(){ 
+  app.view=true;
   app.userId=document.getElementById('uniqueId').innerHTML;
   app.userIdFull=app.userId;
   app.userId=app.userId.substring('google-oauth2|'.length);
@@ -72,6 +75,7 @@ setInterval(function(){
     if(app.userId=="109346374245203627270"){
       app.adminLogin="109346374245203627270";
       app.access=null;
+      app.warnimg=null;
     }
   }
 }, 200);

@@ -63,7 +63,11 @@ input[type="text"] {
     padding-top: 5%;
 
 }
-
+h3.Adpost {
+    margin: auto;
+    font-size: 19px;
+    color: red;
+}
 .logo img {
 
     width: 132px;
@@ -906,6 +910,15 @@ p.share {
 spa.sharetext {
     font-weight: bold;
 }
+#success {
+    color: #075407;
+    font-size: 19px;
+}
+.red {
+    color: red;
+    font-size: 19px;
+}
+
 
 @media only screen and (min-width: 1170px) {
 

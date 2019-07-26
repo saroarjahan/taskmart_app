@@ -4,10 +4,12 @@ include 'header.php';
 
 <section class="reg" >
 	<div class="register_student">
-		<div class="container height">
+		<div class="container main">
 		  <div class="row">
-		  	<h3 class="Adpost">{{access}}</h3><br>
-		    <div class="col-md-6 offset-md-3" v-if="adminLogin==='109346374245203627270'">
+		    <img class="warn" v-show="view" :src="warnimg">
+			<br>
+			<h3 class="Adpost" v-show="view">{{access}}</h3>
+		    <div class="col-md-12" v-if="adminLogin==='109346374245203627270'">
                	
 				<?php
  
@@ -16,7 +18,7 @@ include 'header.php';
 					$sql = "DELETE FROM tasks WHERE id='$id'";
 
 					if ($conn->query($sql) === TRUE) {
-					    echo "<h3>Record deleted successfully</h3>";
+					    echo "<h3 class='red'>Record deleted successfully</h3>";
 					} else {
 					    echo "Error deleting record: " . $conn->error;
 					}

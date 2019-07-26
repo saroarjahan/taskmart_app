@@ -4,10 +4,12 @@ include 'header.php';
 
 <section class="reg" >
 	<div class="register_student">
-		<div class="container">
+		<div class="container main">
 		  <div class="row">
-		  	<h3 class="Adpost" style="padding-top: 16px;">{{access}}</h3><br>
-		    <div class="col-md-6 offset-md-3" v-if="adminLogin==='109346374245203627270'">
+		  	<img class="warn" v-show="view" :src="warnimg">
+			<br>
+			<h3 class="Adpost" v-show="view">{{access}}</h3>
+		    <div class="col-md-12" v-if="adminLogin==='109346374245203627270'">
                <h3 class="Adpost">Add New Taks</h3><br>
                	<form action="addTask.php" method="post">
 		    		<div class="input-group mb-3">
@@ -46,7 +48,7 @@ include 'header.php';
 					include ("../php/db_connection.php");
 
 					$title = $description = $url= "";
-					$secrete=3;
+					$secrete=198674312;
 					$sql = "SELECT id FROM tasks";
 					$result = $conn->query($sql);
 					if ($result->num_rows > 0) {
@@ -60,6 +62,7 @@ include 'header.php';
 					  $description = $_POST["description"];
 					  $url = $_POST["url"];
 					  $reward= $_POST["reward"];
+					  $secrete=substr($secrete, 0, 10);
 
 					  $sql = "INSERT INTO tasks (title,secrete,description,url,reward,image)
 					  VALUES ('$title','$secrete','$description','$url','$reward','http://taskmart.online/static/css/image/task.jpg')";

@@ -21,6 +21,7 @@ include 'header.php';
 				$task_secrete = $_GET['task_secrete'];
 				$user_name = $userInfo['name'];
   				$user_id = $userInfo['sub'];
+  				$url=$_SERVER['SERVER_NAME'];
 
   				//gettask reward with corresponding secrate id
   				$sql = "SELECT secrete, reward FROM tasks";			
@@ -42,12 +43,12 @@ include 'header.php';
 					    while($row = $result_check->fetch_assoc()) {
 					    	if($task_secrete == $row["task_secrete"] && $user_id == $row["user_id"] ){
 					    		$check = "exist";
-					    		echo "<h3>Secrete Id already Used !!!</h3>";
+					    		echo "<h3 class='red'>Secrete Id already Used !!!</h3>";
 					    	}	        
 					    }
 					}
 				}else{
-					echo "<h3>Secrete Id is not found!!!</h3>";
+					echo "<h3 class='red'>Secrete Id is not found!!!</h3>";
 				}
 				
 
@@ -58,15 +59,18 @@ include 'header.php';
 					VALUES ('$task_secrete', '$user_id', '$reward')";
 
 						if ($conn->query($sql_insert) === TRUE) {
-						    echo "<h3>Task Completed  successfully, Thank You</h3>";
+						    echo "<h3 id='success'>Task Completed  successfully, Thank You</h3>";
+						    echo "<p id='find'>Find More task <a href='http://$url'>here</a></p>";
 						} else {
 						    echo "Error: " . $sql . "<br>" . $conn->error;
 						}
 					}else{
-						echo "<h3>Secrete Id is not valid!!!</h3>";
+						echo "<h3 class='red'>Secrete Id is not valid!!!</h3>";
+						echo "<img src='../static/css/image/warning.png'/>";
 					}
 				}else{
-					echo "<h3>Please log in to continue!!!</h3>";
+					echo "<h3 class='red'>Please login to continue!!!</h3>";
+					echo "<img src='../static/css/image/warning.png'/>";
 				}
 				
 
