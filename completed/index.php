@@ -55,8 +55,8 @@ include 'header.php';
 				//insert user id, user_name, reward and task_secrete to completed_task database
 				if (!empty($user_id)) {
 					if (!empty($reward) && $check!="exist" && !empty($task_secrete)) {
-					$sql_insert = "INSERT INTO completed_tasks (task_secrete, user_id, reward)
-					VALUES ('$task_secrete', '$user_id', '$reward')";
+					$sql_insert = "INSERT INTO completed_tasks (task_secrete, user_id, user_name, reward)
+					VALUES ('$task_secrete', '$user_id','$user_name', '$reward')";
 
 						if ($conn->query($sql_insert) === TRUE) {
 						    echo "<h3 id='success'>Task Completed  successfully, Thank You</h3>";

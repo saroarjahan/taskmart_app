@@ -6,6 +6,7 @@ var app = new Vue({
     title:'',
     info:'',
     rewards:'',
+    task_secretes:[],
     totalReward:0,
     avatar:true,
     host:location.hostname,
@@ -24,6 +25,7 @@ var app = new Vue({
     access:'Sorry You do not have any access in this page !!',
     warnimg:'../static/css/image/warning.png',
     view:false,
+    complete:'completed',
   },
   mounted () {
       //Get User ALl events druing initial load
@@ -42,6 +44,7 @@ var app = new Vue({
         
         if(this.rewards.data[x].user_id == this.userIdFull){
           this.totalReward += parseInt(this.rewards.data[x].reward);
+          this.task_secretes.push(this.rewards.data[x].task_secrete);
         }
       }
     }

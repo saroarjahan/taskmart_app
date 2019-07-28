@@ -30,9 +30,16 @@ ul.log {
 .logged-in-box.auth0-box.logged-in {
     display: none;
 }
+.task_title {
+    text-transform: capitalize;
+}
 
 ul.log a {
     float: left;
+}
+
+button.btn.btn-danger {
+    margin-bottom: 21px;
 }
 
 .log img {
