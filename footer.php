@@ -10,11 +10,9 @@
 
 	                  <div class="col-sm-12">
 
-	                             Copyright 2019 , Ubicom Team University Of Oulu                      
+	                             Copyright 2019 , <a target="_blank" class="fot" href="http://ubicomp.oulu.fi/">Center for Ubiquitous Computing</a>             
 
 	                  </div>
-
-	       
 
 	               </div>
 

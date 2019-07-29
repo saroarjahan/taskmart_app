@@ -926,6 +926,11 @@ spa.sharetext {
     font-size: 19px;
 }
 
+/*footer*/
+a.fot {
+    color: #4798b1;
+}
+
 
 @media only screen and (min-width: 1170px) {
 

@@ -26,7 +26,7 @@ include 'header.php';
 						<tr>
 						  <th scope="row">{{key+1}}</th>
 						  <td>{{data.user_id}}</td>
-						  <td>Otto</td>
+						  <td>{{data.user_name}}</td>
 						  <td>{{data.reward}}</td>
 						</tr>
 					</tbody>	 
