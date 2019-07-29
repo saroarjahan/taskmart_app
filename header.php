@@ -43,7 +43,7 @@
 
 		<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
 
-		  <a class="navbar-brand logo" href="index.php"><img src="./static/css/image/logo.png"></a>
+		  <a class="navbar-brand logo" href="./"><img src="./static/css/image/logo.png"></a>
 
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 
@@ -57,7 +57,7 @@
 
 			      <li class=" nav-item">
 
-			        <a class="nav-link" href="index.php">Our Experiments</a>
+			        <a class="nav-link" href="./">Our Experiments</a>
 
 			      </li>
 
@@ -85,7 +85,7 @@
 
 		    <ul class="log">
 
-			        <img class="gif" v-show="imageShow" src="./static/css/image/doller.gif"><a v-show="imageShow" class="nav-link disabled" href="#">{{totalReward}}</a> <i v-show="avatar" class="fas fa-user-alt"></i> <img v-show="imageShow" :src="userImage"><a class="nav-link disabled" :href="loginUrl">{{loginStatus}}</a>
+			        <img class="gif" v-show="imageShow" src="./static/css/image/doller.png"><a v-show="imageShow" class="nav-link disabled" href="#">{{totalReward}}</a> <i v-show="avatar" class="fas fa-user-alt"></i> <img v-show="imageShow" :src="userImage"><a class="nav-link disabled" :href="loginUrl">{{loginStatus}}</a>
 
 		    </ul>
 

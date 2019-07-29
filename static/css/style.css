@@ -115,9 +115,7 @@ a.nav-link.logo img {
 }
 
 li.nav-item.active a {
-
-    color: white!important;
-
+    color: #4798b1 !important;
 }
 
 .nav-back {
@@ -391,19 +389,13 @@ p.app {
 }
 
 a.nav-link {
-
     font-family: openB;
-
-    color: black!important;
-
-}
-
-a.nav-link.active {
-
     color: white!important;
-
 }
 
+li.nav-item.active a {
+    color: #4798b1 !important;
+}
 
 
 p.app {
