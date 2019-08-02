@@ -10,11 +10,9 @@
 
 	                  <div class="col-sm-12">
 
-	                             © copyright 2019 , <a target="_blank" class="fot" href="http://ubicomp.oulu.fi/">Center for Ubiquitous Computing</a>                        
+	                              © copyright 2019 , <a target="_blank" class="fot" href="http://ubicomp.oulu.fi/">Center for Ubiquitous Computing</a>             
 
 	                  </div>
-
-	       
 
 	               </div>
 

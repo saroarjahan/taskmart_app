@@ -79,9 +79,6 @@
     </div>
 
 
-
-
-
 <?php
 
 include '../auth/index.php';             

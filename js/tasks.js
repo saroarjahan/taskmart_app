@@ -26,6 +26,7 @@ var app = new Vue({
     warnimg:'../static/css/image/warning.png',
     view:false,
     complete:'completed',
+    taskid:'empty',
   },
   mounted () {
       //Get User ALl events druing initial load
@@ -35,6 +36,9 @@ var app = new Vue({
       axios
       .get('http://'+this.host+'/'+this.path+'/'+this.file2+this.type)
       .then(response => (this.rewards = response));
+      var url_string = window.location.href;
+      var url = new URL(url_string);
+      this.taskid=url.searchParams.get("taskid");
   },
 
   computed: {
@@ -75,7 +79,7 @@ setInterval(function(){
     app.loginStatus="LogOut";
     app.imageShow=true;
     app.avatar=false;
-    if(app.userId=="109346374245203627270"){
+    if(app.userId=="109346374245203627270" || app.userId=="111399307877160589583"){
       app.adminLogin="109346374245203627270";
       app.access=null;
       app.warnimg=null;

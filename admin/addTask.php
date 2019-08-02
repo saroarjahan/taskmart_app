@@ -10,7 +10,7 @@ include 'header.php';
 			<br>
 			<h3 class="Adpost" v-show="view">{{access}}</h3>
 		    <div class="col-md-12" v-if="adminLogin==='109346374245203627270'">
-               <h3 class="Adpost">Add New Taks</h3><br>
+               <h3 class="Adpost">Add New Task</h3><br>
                	<form action="addTask.php" method="post">
 		    		<div class="input-group mb-3">
 					  <div class="input-group-prepend">

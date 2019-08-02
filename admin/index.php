@@ -13,12 +13,11 @@ include 'header.php';
 			<br>
 			<h3 class="Adpost" v-show="view">{{access}}</h3>
 			<div class="col-md-3" v-for="data in info.data" v-if="adminLogin==='109346374245203627270'">
-
- 				 <img :src="data.image">
-
  				 <h5 class="empty">{{data.title}}</h5>
- 				 <spa class="sharetext">Return url:</span>
- 				 <p class="share">{{url}}/completed/?task_secrete={{data.secrete/2354}}</p>
+ 				 <img :src="data.image">
+ 				 <p class="des">{{data.description}}</p>
+ 				 <span class="sharetext">Completion url:</span>
+ 				 <p class="share">{{url}}/completed/?completion_code={{data.secrete/2354}}</p>
 
  				 <a :href="data.URL"><button class="btn btn-info">Participate</button></a> <a :href="url+'/admin/deleteTask.php?task_id='+data.id"><button class="btn btn-info btn-danger"><i class="far fa-trash-alt"></i> Delete</button></a>
 

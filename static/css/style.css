@@ -687,6 +687,9 @@ p.month.day {
     line-height: 41px;
 
 }
+p.inspiration {
+    font-weight: bold;
+}
 
 
 
@@ -922,7 +925,25 @@ spa.sharetext {
 a.fot {
     color: #4798b1;
 }
+p.des.maintaks {
+    margin-bottom: 8px;
+}
 
+h5.empty {
+    margin-top: 11px;
+    text-transform: capitalize;
+}
+p.des {
+    margin-top: 12px;
+    margin-bottom: 1px;
+}
+button#completed {
+    color: white;
+}
+span.sharetext {
+    font-weight: bold;
+    font-size: 14px;
+}
 
 @media only screen and (min-width: 1170px) {
 

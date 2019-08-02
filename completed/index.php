@@ -2,7 +2,8 @@
 
 <?php
 
-include 'header.php';             
+include '../common/header.php'; 
+include '../auth/index.php';              
 
 ?>
 
@@ -18,7 +19,7 @@ include 'header.php';
 			<?php
 				include ("../php/db_connection.php");
 				//gettask secrate id, user id
-				$task_secrete = $_GET['task_secrete'];
+				$task_secrete = $_GET['completion_code'];
 				$user_name = $userInfo['name'];
   				$user_id = $userInfo['sub'];
   				$url=$_SERVER['SERVER_NAME'];
@@ -89,7 +90,7 @@ include 'header.php';
 
 <?php
 
-include 'footer.php';             
+include '../common/footer.php';             
 
 ?>
 
