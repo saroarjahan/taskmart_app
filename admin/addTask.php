@@ -59,6 +59,9 @@ include 'header.php';
 					        $id=$row["id"];
 					    }
 					}
+					else{
+						$id=0;
+					}
 					if (isset($_POST['submit'])) {
 					  $title = $_POST["title"];
 					  $description = $_POST["description"];
@@ -72,10 +75,17 @@ include 'header.php';
 						if (mysqli_query($conn, $sql)) {
 							$id=$id+1;
 						    echo "<h3 id='success'>New record created successfully</h3>";
-						    echo $id;
-						    echo $secrete;
-						    echo "<p id='find'>Find More task http://".$url."/study/?taskid=".$id."</p>";
-						    echo "<p id='find'>Find More task http://".$url."/completed/?completion_code=".$secrete."</p>";
+
+						    echo "<p id='texttask'>Here, we have provided two different URL to your task. Firstly,  the 'Task completion url'.This is a secrete url which you will add to your task page (google form or  personal website)  as a secrete. You will set this url as a way so that it can be visible to the user only after the task is completed. Then user will vsist the link and our system will give him rewards for completing your task </p>";
+
+						    echo "<p id='texttask'>Secondly, the 'Task individual url'. You can share this url to anywhere you want to invite student/participant  to patricpate. You can send this url with your email or you can share it to your social network page</p>";
+
+							echo "<p id='find'>Task completion url : http://".$home_url."/completed/?completion_code=".$secrete."</p>";
+
+						    echo "<p id='find'>Task individual url : http://".$home_url."/study/?taskid=".$id."</p>";
+
+						    echo "<p id='find'>You can also find this two url for all of your create tasks <a href='http://$home_url/admin/'>here</a></p>";
+						    
 						} else {
 						    echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 						}
