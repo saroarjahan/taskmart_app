@@ -49,31 +49,35 @@ include 'header.php';
 
 					$title = $description = $url= "";
 					$home_url=$_SERVER['HTTP_HOST'];
-					$secrete=198674312;
+					$secrete=17359;
 					$sql = "SELECT id FROM tasks";
 					$result = $conn->query($sql);
 					if ($result->num_rows > 0) {
 					    // output data of each row
 					    while($row = $result->fetch_assoc()) {
-					        $secrete=$secrete*$row["id"];
 					        $id=$row["id"];
 					    }
 					}
 					else{
 						$id=0;
 					}
+
+					
+
 					if (isset($_POST['submit'])) {
 					  $title = $_POST["title"];
 					  $description = $_POST["description"];
 					  $url = $_POST["url"];
+					  $id=$id+1;
 					  $reward= $_POST["reward"];
-					  $secrete=substr($secrete, 0, 10);
+					  $secrete=$id*$secrete;
+					  // $secrete=substr($secrete, 0, 10);
 
 					  $sql = "INSERT INTO tasks (title,secrete,description,url,reward,image)
 					  VALUES ('$title','$secrete','$description','$url','$reward','http://taskmart.online/static/css/image/task.jpg')";
 
 						if (mysqli_query($conn, $sql)) {
-							$id=$id+1;
+							
 						    echo "<h3 id='success'>New record created successfully</h3>";
 
 						    echo "<p id='texttask'>Here, we have provided two different URL to your task. Firstly,  the 'Task completion url'. This is a secrete url which you will add to your task page (google form or  personal website)  as a secrete. You will set this url as a way so that it can be visible to the user only after the task is completed. Then user will visit the link and our system will give him rewards for completing your task </p>";

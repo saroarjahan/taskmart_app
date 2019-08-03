@@ -115,7 +115,9 @@ h3.Adpostitle {
     font-size: 19px;
     color: #3c8398;
 }
-
+p#find {
+    font-weight: bold;
+}
 .main {
     background: #ffffffeb;
     min-height: 700px;
