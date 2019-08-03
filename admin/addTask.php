@@ -48,6 +48,7 @@ include 'header.php';
 					include ("../php/db_connection.php");
 
 					$title = $description = $url= "";
+					$home_url=$_SERVER['HTTP_HOST'];
 					$secrete=198674312;
 					$sql = "SELECT id FROM tasks";
 					$result = $conn->query($sql);
@@ -55,6 +56,7 @@ include 'header.php';
 					    // output data of each row
 					    while($row = $result->fetch_assoc()) {
 					        $secrete=$secrete*$row["id"];
+					        $id=$row["id"];
 					    }
 					}
 					if (isset($_POST['submit'])) {
@@ -68,7 +70,12 @@ include 'header.php';
 					  VALUES ('$title','$secrete','$description','$url','$reward','http://taskmart.online/static/css/image/task.jpg')";
 
 						if (mysqli_query($conn, $sql)) {
+							$id=$id+1;
 						    echo "<h3 id='success'>New record created successfully</h3>";
+						    echo $id;
+						    echo $secrete;
+						    echo "<p id='find'>Find More task http://".$url."/study/?taskid=".$id."</p>";
+						    echo "<p id='find'>Find More task http://".$url."/completed/?completion_code=".$secrete."</p>";
 						} else {
 						    echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 						}

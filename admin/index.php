@@ -18,6 +18,8 @@ include 'header.php';
  				 <p class="des">{{data.description}}</p>
  				 <span class="sharetext">Completion url:</span>
  				 <p class="share">{{url}}/completed/?completion_code={{data.secrete/2354}}</p>
+ 				 <span class="sharetext">Task Individual url:</span>
+ 				 <p class="share">{{url}}/study/?taskid={{data.id}}</p>
 
  				 <a :href="data.URL"><button class="btn btn-info">Participate</button></a> <a :href="url+'/admin/deleteTask.php?task_id='+data.id"><button class="btn btn-info btn-danger"><i class="far fa-trash-alt"></i> Delete</button></a>
 

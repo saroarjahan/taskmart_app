@@ -13,20 +13,21 @@ include '../auth/index.php';
 
 	<div class="container main">
 		<div class="row">
-			<div class="col-md-3" v-for="data in info.data">
-				<div v-if="data.id==taskid">
- 				 <h5 class="empty task_title">{{data.title}}</h5>
- 				 <a target="_blank" :href="data.URL"><img :src="data.image"></a>
- 				 <p class="des maintaks">{{data.description}}</p>
- 				 	<div v-if="task_secretes.includes(data.secrete)">
-					  <button class="btn btn-warning btn-block" :id="complete">Taks Completed <i class="fas fa-check-double"></i></button>
+			<div class="col-md-3">
+				<div  v-for="data in info.data">
+					<div v-if="data.id==taskid">
+	 				 <h5 class="empty task_title">{{data.title}}</h5>
+	 				 <a target="_blank" :href="data.URL"><img :src="data.image"></a>
+	 				 <p class="des maintaks">{{data.description}}</p>
+	 				 	<div v-if="task_secretes.includes(data.secrete)">
+						  <button class="btn btn-warning btn-block" :id="complete">Taks Completed <i class="fas fa-check-double"></i></button>
+						</div>
+						<div v-else>
+						  <a target="_blank" :href="data.URL"><button class="btn btn-info btn-block">Click To Participate</button></a>
+						</div>
 					</div>
-					<div v-else>
-					  <a target="_blank" :href="data.URL"><button class="btn btn-info btn-block">Click To Participate</button></a>
-					</div>
-				</div>
-			</div>    
-
+				</div>    
+			</div>
     	</div>
 
     	<div class="row" v-for="data in info.data">
