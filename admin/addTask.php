@@ -10,7 +10,7 @@ include 'header.php';
 			<br>
 			<h3 class="Adpost" v-show="view">{{access}}</h3>
 		    <div class="col-md-12" v-if="adminLogin==='109346374245203627270'">
-               <h3 class="Adpost">Add New Task</h3><br>
+               <h3 class="Adpostitle">Add New Task</h3><br>
                	<form action="addTask.php" method="post">
 		    		<div class="input-group mb-3">
 					  <div class="input-group-prepend">
@@ -76,13 +76,13 @@ include 'header.php';
 							$id=$id+1;
 						    echo "<h3 id='success'>New record created successfully</h3>";
 
-						    echo "<p id='texttask'>Here, we have provided two different URL to your task. Firstly,  the 'Task completion url'.This is a secrete url which you will add to your task page (google form or  personal website)  as a secrete. You will set this url as a way so that it can be visible to the user only after the task is completed. Then user will vsist the link and our system will give him rewards for completing your task </p>";
+						    echo "<p id='texttask'>Here, we have provided two different URL to your task. Firstly,  the 'Task completion url'. This is a secrete url which you will add to your task page (google form or  personal website)  as a secrete. You will set this url as a way so that it can be visible to the user only after the task is completed. Then user will visit the link and our system will give him rewards for completing your task </p>";
 
-						    echo "<p id='texttask'>Secondly, the 'Task individual url'. You can share this url to anywhere you want to invite student/participant  to patricpate. You can send this url with your email or you can share it to your social network page</p>";
+						    echo "<p id='texttask'>Secondly, the 'Task individual url'. You can share this url to anywhere you want to invite student/participant  to patricpate. You can send this url with your email or you can share it to your social network pages for attaract more participant.</p>";
 
-							echo "<p id='find'>Task completion url : http://".$home_url."/completed/?completion_code=".$secrete."</p>";
+							echo "<p id='find'>Task completion url : "."<span>"."http://".$home_url."/completed/?completion_code=".$secrete."</span>"."</p>";
 
-						    echo "<p id='find'>Task individual url : http://".$home_url."/study/?taskid=".$id."</p>";
+						    echo "<p id='find'>Task individual url : "."<span>"."http://".$home_url."/study/?taskid=".$id."</span>"."</p>";
 
 						    echo "<p id='find'>You can also find this two url for all of your create tasks <a href='http://$home_url/admin/'>here</a></p>";
 						    
