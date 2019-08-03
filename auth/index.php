@@ -64,8 +64,10 @@
 
 <?php if(!$userInfo): ?>
 
-<div class="login-box auth0-box before">
 
+
+<div class="login-box auth0-box before">
+  <p id="uniqueId">empty</p>
   
 
 </div>

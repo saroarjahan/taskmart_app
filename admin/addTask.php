@@ -82,12 +82,12 @@ include 'header.php';
 	</div>		
 </section>
 
-<script type="text/javascript">
+<!-- <script type="text/javascript">
 	setTimeout(function(){ 
         var value=document.getElementById("success").innerHTML;
             if(value){window.location.href = 'http://'+location.hostname+'/admin/'; }         
         }, 3000);
-</script>
+</script> -->
 
 
 <!--footer sestion-->

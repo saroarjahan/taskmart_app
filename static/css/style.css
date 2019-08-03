@@ -648,7 +648,12 @@ p.event_title {
 
 }
 
+p#uniqueId {
+    font-size: 5px;
+    color: white;
+}
 
+.hide{display: none;}
 
 p.month {
 

@@ -27,6 +27,7 @@ var app = new Vue({
     view:false,
     complete:'completed',
     taskid:'empty',
+    loginhide:true,
   },
   mounted () {
       //Get User ALl events druing initial load
@@ -71,10 +72,14 @@ $(document).ready(function () {
 setInterval(function(){ 
   app.view=true;
   app.userId=document.getElementById('uniqueId').innerHTML;
-  app.userIdFull=app.userId;
-  app.userId=app.userId.substring('google-oauth2|'.length);
-  app.userImage=document.getElementById('proImage').src;
-  if (app.userId) {
+  if (app.userId !== 'empty') {
+    app.userIdFull=app.userId;
+    app.userId=app.userId.substring('google-oauth2|'.length);
+    app.userImage=document.getElementById('proImage').src;
+
+  }
+  
+  if (app.userId !=='empty') {
     app.loginUrl='http://'+location.hostname+"/auth/logout.php";
     app.loginStatus="LogOut";
     app.imageShow=true;
@@ -85,5 +90,13 @@ setInterval(function(){
       app.warnimg=null;
     }
   }
+  
+
 }, 200);
+
+setTimeout(function(){ 
+  var element = document.getElementById("myDIV");
+  element.classList.remove("hide"); 
+}, 250);
+  
 
