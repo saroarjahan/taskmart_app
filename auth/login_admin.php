@@ -14,25 +14,11 @@
     $audience = 'https://' . $domain . '/userinfo';
   }
 
-  $taskid=$_GET['taskid'];
-
-  
-  if (!empty($taskid)) {
-    $urlend='study/?taskid='.$taskid;
-  }
-
-  $completion_code=$_GET['completion_code'];
-  if (!empty($completion_code)) {
-    $urlend='completed/?completion_code='.$completion_code;
-  }
-
-
-
   $auth0 = new Auth0([
       'domain' => 'taskmart.eu.auth0.com',
       'client_id' => 'u69bIFchiNgtl7Iq1xu49Er2LRPcYCZI',
       'client_secret' => 'RckKuJZNdl_uG5tEAvShAlnW4zo3zXQ_ltMyzKJA8didlpnzw61IqU207Q7qrYLO',
-      'redirect_uri' => 'http://taskmart.online/'.$urlend,
+      'redirect_uri' => 'http://taskmart.online/admin/',
       'audience' => $audience,
       'scope' => 'openid profile',
       'persist_id_token' => true,

@@ -65,11 +65,10 @@
 			      <li class="nav-item">
 			        <a class="nav-link" href="rewards.php">Participant Rewards</a>
 			      </li>
-
 			</ul>
 
-		    <ul class="log">
-			        <i v-show="avatar" class="fas fa-user-alt"></i> <img v-show="imageShow" :src="userImage"><a class="nav-link disabled" :href="loginUrl">{{loginStatus}}</a>
+		    <ul id="myDIV" class="log hide">
+			        <i v-show="avatar" class="fas fa-user-alt"></i> <img v-show="imageShow" :src="userImage"><a class="nav-link disabled" :href="loginUrl_admin">{{loginStatus}}</a>
 		    </ul>
 
 		  </div>

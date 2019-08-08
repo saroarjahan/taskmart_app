@@ -3,7 +3,7 @@
 <?php
 
 include '../common/header.php'; 
-include '../auth/index.php';             
+include '../auth/index.php';           
 
 ?>
 

@@ -15,6 +15,7 @@ var app = new Vue({
     userImage:'',
     imageShow:false,
     loginUrl:'http://'+location.hostname+"/auth/login.php",
+    loginUrl_admin:'http://'+location.hostname+"/auth/login_admin.php",
     path:'php',
     file:'gettasks.',
     file2:'getRewards.',
@@ -27,6 +28,7 @@ var app = new Vue({
     view:false,
     complete:'completed',
     taskid:'empty',
+    completion_code:'',
     loginhide:true,
   },
   mounted () {
@@ -40,6 +42,16 @@ var app = new Vue({
       var url_string = window.location.href;
       var url = new URL(url_string);
       this.taskid=url.searchParams.get("taskid");
+      if (this.taskid) {
+        this.loginUrl='http://'+location.hostname+"/auth/login.php"+"/?taskid="+this.taskid;
+      }
+      
+      this.completion_code=url.searchParams.get("completion_code");
+      if (this.completion_code) {
+        this.loginUrl='http://'+location.hostname+"/auth/login.php"+"/?completion_code="+this.completion_code;
+      }
+
+      
   },
 
   computed: {
@@ -81,6 +93,7 @@ setInterval(function(){
   
   if (app.userId !=='empty') {
     app.loginUrl='http://'+location.hostname+"/auth/logout.php";
+    app.loginUrl_admin='http://'+location.hostname+"/auth/logout_admin.php";
     app.loginStatus="LogOut";
     app.imageShow=true;
     app.avatar=false;
