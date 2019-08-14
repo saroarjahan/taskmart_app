@@ -1,42 +1,24 @@
-<!--Header sestion-->
-
 <?php
 
-include './common/header.php';             
+require_once "router.php";
 
-?>
-<?php
-include './auth/index.php';             
-?>
-<!--Main Body Event section-->
+route('/', function () {
+    include 'home.php';
+});
 
-<section class="events">
+route('/about_us', function () {
+    include 'about_us.php';
+});
+route('/for_researchers', function () {
+    include 'for_researchers.php';
+});
+route('/Findings_&_Data_Sets', function () {
+    include 'Findings_&_Data_Sets.php';
+});
+$action = $_SERVER['REQUEST_URI'];
 
-	<div class="container main">
-		<div class="row">
-			<div class="col-md-3" v-for="data in info.data">
- 				 <h5 class="empty task_title">{{data.title}}</h5>
- 				 <a target="_blank" :href="data.URL"><img :src="data.image"></a>
- 				 <p class="des maintaks">{{data.description}}</p>
- 				 	<div v-if="task_secretes.includes(data.secrete)">
-					  <button class="btn btn-warning btn-block" :id="complete">Taks Completed <i class="fas fa-check-double"></i></button>
-					</div>
-					<div v-else>
-					  <a target="_blank" :href="data.URL"><button class="btn btn-info btn-block">Click To Participate</button></a>
-					</div>				  
-			</div>    
 
-    	</div>
-
-    </div>   	
-
-</section>
-
-<!--footer sestion-->
-
-<?php
-
-include './common/footer.php';             
-
-?>
-
+if (strpos($action, 'code') !== false) {
+    $action='/';
+}
+dispatch($action);

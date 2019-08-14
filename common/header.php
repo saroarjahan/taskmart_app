@@ -65,19 +65,19 @@
 
 			      <li class="nav-item">
 
-			        <a class="nav-link" href="../Findings_&_Data_Sets.php">Findings & Data Sets</a>
+			        <a class="nav-link" href="../Findings_&_Data_Sets/">Findings & Data Sets</a>
 
 			      </li>
 
 			      <li class="nav-item">
 
-			        <a class="nav-link" href="../for_researchers.php">For Researchers</a>
+			        <a class="nav-link" href="../for_researchers/">For Researchers</a>
 
 			      </li>
 
 			      <li class="nav-item">
 
-			        <a class="nav-link disabled" href="../about_us.php">About Us</a>
+			        <a class="nav-link disabled" href="../about_us/">About Us</a>
 
 			      </li>
 
