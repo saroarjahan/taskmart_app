@@ -27,6 +27,9 @@ ul.log {
     list-style: none!important;
 
 }
+button#completed {
+    margin-bottom: 18px;
+}
 .logged-in-box.auth0-box.logged-in {
     display: none;
 }

@@ -20,5 +20,7 @@ $action = $_SERVER['REQUEST_URI'];
 
 if (strpos($action, 'code') !== false) {
     $action='/';
+    dispatch($action);
+}else{
+	dispatch($action);
 }
-dispatch($action);

@@ -4,7 +4,7 @@
 	<title></title>
 </head>
 <body>
-	<h2>Sorry no page exist ?</h2>
+	<h2>Error!</h2>
 
 </body>
 </html>

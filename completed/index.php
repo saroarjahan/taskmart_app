@@ -21,8 +21,9 @@ include '../auth/index.php';
 				//gettask secrate id, user id
 				$task_secrete = $_GET['completion_code'];
 				$user_name = $userInfo['name'];
-  				$user_id = $userInfo['sub'];
+  				$user_id = $_COOKIE[user];
   				$url=$_SERVER['SERVER_NAME'];
+  				echo $user_id;
 
   				//gettask reward with corresponding secrate id
   				$sql = "SELECT secrete, reward FROM tasks";			

@@ -86,7 +86,25 @@
 
 </div>
 
+<?php
+
+// $cookie_user_id = $userInfo['sub'];
+
+// setcookie($cookie_user_id,  time() + (86400 * 30), "/");
+
+// echo $_COOKIE[$cookie_user_id];
+
+// echo $userInfo['sub'];
+
+  $cookie_user_id = "user";
+  $cookie_value = $userInfo['sub'];
+  setcookie($cookie_user_id , $cookie_value, time() + (86400*365*30), "/");
+
+
+?>
+
 <?php endif ?>
+
 
 
 
