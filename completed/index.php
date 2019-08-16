@@ -21,9 +21,32 @@ include '../auth/index.php';
 				//gettask secrate id, user id
 				$task_secrete = $_GET['completion_code'];
 				$user_name = $userInfo['name'];
-  				$user_id = $_COOKIE[user];
+  				$user_id = '';
   				$url=$_SERVER['SERVER_NAME'];
-  				echo $user_id;
+  			
+				if(isset($_COOKIE[user])){
+				   $user_id = $_COOKIE[user];
+				} 
+				else {
+				   $cookie_user_id = "user";
+				   $cookie_value = generateRandomUID();
+				   setcookie($cookie_user_id , $cookie_value, time() + (86400*365*30), "/");
+				   $user_id = $_COOKIE[user];
+				   header('Location: .');
+				}
+
+				function generateRandomUID ($length = 15) {
+				       $characters = ‘0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ’;
+				       $charactersLength = strlen($characters);
+				       $randomString = ‘’;
+				       for ($i = 0; $i < $length; $i++) {
+				           $randomString .= $characters[rand(0, $charactersLength - 1)];
+				       }
+				       $secs = time();
+				       return $secs . $randomString;
+				}
+
+				echo $user_id;
 
   				//gettask reward with corresponding secrate id
   				$sql = "SELECT secrete, reward FROM tasks";			
