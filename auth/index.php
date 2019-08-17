@@ -67,8 +67,8 @@
 
 
 <div class="login-box auth0-box before">
-  <p id="uniqueId">empty</p>
-  
+  <p id="uniqueId"><?php echo $_COOKIE[user]; ?></p>
+
 
 </div>
 
@@ -77,31 +77,27 @@
 <div class="logged-in-box auth0-box logged-in">
 
   <img id="proImage" class="avatar" src="<?php echo $userInfo['picture'] ?>"/>
-
   <h2>Welcome <span class="nickname"><?php echo $userInfo['nickname'] ?></span></h2>
   <p id="name"><?php echo $userInfo['name'] ?></p>
-  <p id="uniqueId"><?php echo $userInfo['sub'] ?></p>
-
+  <p id="uniqueId"><?php echo $_COOKIE[user] ?></p>
   <a id="qsLogoutBtn" class="btn btn-warning btn-logout" href="./auth/logout.php">Logout</a>
 
 </div>
 
-<?php
-
-// $cookie_user_id = $userInfo['sub'];
-
-// setcookie($cookie_user_id,  time() + (86400 * 30), "/");
-
-// echo $_COOKIE[$cookie_user_id];
-
-// echo $userInfo['sub'];
-
+  <?php
   $cookie_user_id = "user";
   $cookie_value = $userInfo['sub'];
   setcookie($cookie_user_id , $cookie_value, time() + (86400*365*30), "/");
+  ?>
 
+  <?php 
 
-?>
+  
+  if(!isset($_COOKIE[user])) {
+    header("Refresh:0"); 
+  } 
+
+  ?>
 
 <?php endif ?>
 

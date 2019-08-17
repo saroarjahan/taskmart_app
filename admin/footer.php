@@ -26,7 +26,7 @@
 
 <!--Javascript vue file for all events-->
 </div>
-<script src="../js/tasks.js"></script>
+<script src="../js/admin_tasks.js"></script>
 </body>
 
 </html>

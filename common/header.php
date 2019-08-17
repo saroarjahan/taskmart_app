@@ -85,7 +85,7 @@
 
 		    <ul id="myDIV" class="log hide" >
 
-			        <img class="gif" v-show="imageShow" src="../static/css/image/doller.png"><a v-show="imageShow" class="nav-link disabled" href="#">{{totalReward}}</a> <i v-show="avatar" class="fas fa-user-alt"></i> <img v-show="imageShow" :src="userImage"><a class="nav-link disabled" :href="loginUrl">{{loginStatus}}</a>
+			        <img class="gif" v-show="imageShow" src="../static/css/image/doller.png"><a v-show="imageShow" class="nav-link disabled" href="#">{{totalReward}}</a> <i v-show="avatar" class="fas fa-user-alt"></i> <span class="uid" v-show="imageShow">User Id: {{userId}}</span><a class="nav-link disabled" :href="loginUrl">{{loginStatus}}</a>
 
 		    </ul>
 

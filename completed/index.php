@@ -32,21 +32,17 @@ include '../auth/index.php';
 				   $cookie_value = generateRandomUID();
 				   setcookie($cookie_user_id , $cookie_value, time() + (86400*365*30), "/");
 				   $user_id = $_COOKIE[user];
-				   header('Location: .');
+				   header("Location:/completed/?completion_code=$task_secrete");
 				}
 
-				function generateRandomUID ($length = 15) {
-				       $characters = ‘0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ’;
-				       $charactersLength = strlen($characters);
-				       $randomString = ‘’;
-				       for ($i = 0; $i < $length; $i++) {
-				           $randomString .= $characters[rand(0, $charactersLength - 1)];
-				       }
+				function generateRandomUID () {
+				       $characters = 924874524;
+				       $randomString= rand(12,92487452);
 				       $secs = time();
-				       return $secs . $randomString;
+				       return $secs+$randomString;
 				}
 
-				echo $user_id;
+				// echo $user_id;
 
   				//gettask reward with corresponding secrate id
   				$sql = "SELECT secrete, reward FROM tasks";			

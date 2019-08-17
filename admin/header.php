@@ -68,7 +68,7 @@
 			</ul>
 
 		    <ul id="myDIV" class="log hide">
-			        <i v-show="avatar" class="fas fa-user-alt"></i> <img v-show="imageShow" :src="userImage"><a class="nav-link disabled" :href="loginUrl_admin">{{loginStatus}}</a>
+			        <i v-show="avatar" class="fas fa-user-alt"></i> <img v-show="imageShow" :src="userImage"><a class="nav-link disabled adlog" :href="loginUrl_admin">{{loginStatus}}</a>
 		    </ul>
 
 		  </div>

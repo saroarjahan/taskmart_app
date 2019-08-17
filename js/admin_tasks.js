@@ -84,17 +84,17 @@ $(document).ready(function () {
 setInterval(function(){ 
   app.view=true;
   app.userId=document.getElementById('uniqueId').innerHTML;
-  if (app.userId !== "") {
+  if (app.userId !== 'empty') {
     app.userIdFull=app.userId;
-    if (app.userId.includes("google")==true) {
-      app.userId=app.userId.substring('google-oauth2|'.length);
+    app.userId=app.userId.substring('google-oauth2|'.length);
+    app.userImage=document.getElementById('proImage').src;
 
-    }
-    // app.userImage=document.getElementById('proImage').src;
-    
+  }
+  
+  if (app.userId !=='empty') {
     app.loginUrl='http://'+location.hostname+"/auth/logout.php";
     app.loginUrl_admin='http://'+location.hostname+"/auth/logout_admin.php";
-    app.loginStatus="";
+    app.loginStatus="LogOut";
     app.imageShow=true;
     app.avatar=false;
     if(app.userId=="109346374245203627270" || app.userId=="111399307877160589583"){
@@ -102,12 +102,7 @@ setInterval(function(){
       app.access=null;
       app.warnimg=null;
     }
-
   }
-  
-  // if (app.userId) {
-    
-  // }
   
 
 }, 200);
