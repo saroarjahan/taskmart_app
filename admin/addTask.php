@@ -11,7 +11,7 @@ include 'header.php';
 			<h3 class="Adpost" v-show="view">{{access}}</h3>
 		    <div class="col-md-12" v-if="adminLogin==='109346374245203627270'">
                <h3 class="Adpostitle">Add New Task</h3><br>
-               	<form action="addTask.php" method="post">
+               	<form action="addTask.php" method="post" enctype="multipart/form-data">
 		    		<div class="input-group mb-3">
 					  <div class="input-group-prepend">
 					    <span class="input-group-text" id="basic-addon1"><i class="fas fa-file-signature"></i></span>
@@ -37,6 +37,10 @@ include 'header.php';
 					  </div>
 					  <input type="text" required class="form-control" placeholder="Url" name="url" aria-describedby="basic-addon1">
 					</div>
+
+					<input type="file" name="fileToUpload" id="fileToUpload"> JPG, JPEG, PNG & GIF
+					<br>
+
 					<div class="input-group mb-3">
 						  <input type="submit" @click="addSubmit" class="form-control submit" placeholder="submit" name="submit" aria-describedby="basic-addon1">
 					</div>
@@ -63,20 +67,43 @@ include 'header.php';
 					}
 
 					
+                    //image upload 
+				    $target_dir = "uploads/";
+					$target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
+					$uploadOk = 0;
+					$imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
 
 					if (isset($_POST['submit'])) {
 					  $title = $_POST["title"];
 					  $description = $_POST["description"];
 					  $url = $_POST["url"];
 					  $id=$id+1;
+
 					  $reward= $_POST["reward"];
 					  $secrete=$id*$secrete;
 					  // $secrete=substr($secrete, 0, 10);
 
-					  $sql = "INSERT INTO tasks (title,secrete,description,url,reward,image)
-					  VALUES ('$title','$secrete','$description','$url','$reward','http://taskmart.online/static/css/image/task.jpg')";
+					  
+					// Check if image file is a actual image or fake image
+				    $check = getimagesize($_FILES["fileToUpload"]["tmp_name"]);
+				    if($check !== false) {
+				        // echo "File is an image - " . $check["mime"] . ".";
+				        $uploadOk = 1;
+				    } else {
+				        echo "File is not an image.";
+				        $uploadOk = 0;
+				    }
 
-						if (mysqli_query($conn, $sql)) {
+
+					
+				    $img='http://taskmart.online/admin/'.$target_file;
+
+				    if ( $uploadOk==1 ) {
+					  $sql = "INSERT INTO tasks (title,secrete,description,url,reward,image)
+					  VALUES ('$title','$secrete','$description','$url','$reward','$img')";
+					}
+
+					if (mysqli_query($conn, $sql) && $uploadOk==1) {
 							
 						    echo "<h3 id='success'>New record created successfully</h3>";
 
@@ -93,6 +120,34 @@ include 'header.php';
 						} else {
 						    echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 						}
+					}
+
+					// Check if file already exists
+					if (file_exists($target_file)) {
+					    // echo "Sorry, file already exists.";
+					    $uploadOk = 0;
+					}
+					// Check file size
+					if ($_FILES["fileToUpload"]["size"] > 500000) {
+					    echo "Sorry, your file is too large.";
+					    $uploadOk = 0;
+					}
+					// Allow certain file formats
+					if($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg"
+					&& $imageFileType != "gif" ) {
+					    echo " * only JPG, JPEG, PNG & GIF files are allowed.";
+					    $uploadOk = 0;
+					}
+					// Check if $uploadOk is set to 0 by an error
+					if ($uploadOk == 0) {
+					    // echo "Sorry, your file was not uploaded.";
+					// if everything is ok, try to upload file
+					} else {
+					    if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
+					        echo "The file ". basename( $_FILES["fileToUpload"]["name"]). " has been uploaded.";
+					    } else {
+					        echo "Sorry, there was an error uploading your file.";
+					    }
 					}
 
 					mysqli_close($conn);

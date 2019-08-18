@@ -50,6 +50,13 @@ a.nav-link.disabled.adlog {
     padding: 8px 10px!important;
     margin-right: 10px;
 }
+input#fileToUpload {
+    padding-bottom: 10px;
+}
+.col-md-3 img {
+    width: 100%;
+    height: 167px;
+}
 .log img {
     width: 20px;
     height: 20px;
