@@ -24,6 +24,12 @@ $auth0 = new Auth0([
   'persist_refresh_token' => true,
 ]);
 
+
+  $cookie_user_id = "user";
+  $cookie_value = "";
+  setcookie($cookie_user_id , $cookie_value, time() + (86400*365*30), "/");
+
+
 $auth0->logout();
 header('Location: ' . 'http://' . $_SERVER['HTTP_HOST']);
 die();

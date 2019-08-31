@@ -456,7 +456,10 @@ button.btn.btn-info {
 
 }
 
-
+.navbar.sticky-top.navbar-expand-lg.navbar-light.bg-light {
+    max-width: 1368px!important;
+    margin: auto;
+}
 
 .footer .row {
 

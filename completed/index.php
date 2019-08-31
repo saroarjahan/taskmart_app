@@ -23,9 +23,13 @@ include '../auth/index.php';
 				$user_name = $userInfo['name'];
   				$user_id = '';
   				$url=$_SERVER['SERVER_NAME'];
+
   			
 				if(isset($_COOKIE[user])){
 				   $user_id = $_COOKIE[user];
+				   if ($user_id != $userInfo['sub']) {
+				   	$reload="reload";
+				   }
 				} 
 				else {
 				   $cookie_user_id = "user";
@@ -33,13 +37,14 @@ include '../auth/index.php';
 				   setcookie($cookie_user_id , $cookie_value, time() + (86400*365*30), "/");
 				   $user_id = $_COOKIE[user];
 				   header("Location:/completed/?completion_code=$task_secrete");
+				   
 				}
 
 				function generateRandomUID () {
 				       $characters = 924874524;
 				       $randomString= rand(12,92487452);
 				       $secs = time();
-				       return $secs+$randomString;
+				       return $secs.$randomString;
 				}
 
 				// echo $user_id;
@@ -81,7 +86,16 @@ include '../auth/index.php';
 
 						if ($conn->query($sql_insert) === TRUE) {
 						    echo "<h3 id='success'>Task Completed  successfully, Thank You</h3>";
-						    echo "<p id='find'>Find More task <a href='http://$url'>here</a></p>";
+						    if($user_name!=""){	
+						    	echo "<p id='find'>Find More task <a href='http://$url'>here</a></p>";
+						    	if ($reload=="reload") {
+						    		header("Refresh:0");
+						    	}
+						    }else{
+						    	echo "<p id='find'>Please create a new, persistent user account by <a href='http://$url/auth/login.php/?completion_code=$task_secrete'>clicking here</a> to keep your balance across different computers. Or continue using this computer and find more tasks to do on the <a href='http://$url'>front page</a>.</p>";
+						    	// echo "<p id='find'>Please create a new, persistent user account by <a href='http://$url/auth/login.php/'>clicking here</a> to keep your balance across different computers. Or continue using this computer and find more tasks to do on the <a href='http://$url'>front page</a>.</p>";
+						    }
+						    
 						} else {
 						    echo "Error: " . $sql . "<br>" . $conn->error;
 						}

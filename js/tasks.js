@@ -94,7 +94,7 @@ setInterval(function(){
     
     app.loginUrl='http://'+location.hostname+"/auth/logout.php";
     app.loginUrl_admin='http://'+location.hostname+"/auth/logout_admin.php";
-    app.loginStatus="";
+    app.loginStatus="Logout";
     app.imageShow=true;
     app.avatar=false;
     if(app.userId=="109346374245203627270" || app.userId=="111399307877160589583"){

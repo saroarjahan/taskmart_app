@@ -21,9 +21,24 @@
     $urlend='study/?taskid='.$taskid;
   }
 
+  $cookie_user_id = "user";
+    $cookie_value = "";
+    setcookie($cookie_user_id , $cookie_value, time() + (86400*365*30), "/");
+    if ($_COOKIE[user]!="") {
+      header("Refresh:0");
+    }
+
+
   $completion_code=$_GET['completion_code'];
   if (!empty($completion_code)) {
     $urlend='completed/?completion_code='.$completion_code;
+    //set cookies zero
+    $cookie_user_id = "user";
+    $cookie_value = "";
+    setcookie($cookie_user_id , $cookie_value, time() + (86400*365*30), "/");
+    if ($_COOKIE[user]!="") {
+      header("Refresh:0");
+    }
   }
 
 
