@@ -30,6 +30,7 @@ var app = new Vue({
     taskid:'empty',
     completion_code:'',
     loginhide:true,
+    
   },
   mounted () {
       //Get User ALl events druing initial load
@@ -50,7 +51,6 @@ var app = new Vue({
       if (this.completion_code) {
         this.loginUrl='http://'+location.hostname+"/auth/login.php"+"/?completion_code="+this.completion_code;
       }
-
       
   },
 

@@ -17,12 +17,12 @@ include 'header.php';
 				<tr>
 				  <th scope="col">#</th>
 				  <th scope="col">User Id</th>
-				  <th scope="col">User Name</th>
+				  <th scope="col"></th>
 				  <th scope="col">Rewards</th>
 				</tr>
 				</thead>
 
-					<tbody class="col-md-12" v-for="(data,key) in rewards.data" >
+					<tbody class="col-md-12" v-for="(data,key) in sum" >
 						<tr>
 						  <th scope="row">{{key+1}}</th>
 						  <td>{{data.user_id}}</td>
@@ -31,7 +31,7 @@ include 'header.php';
 						</tr>
 					</tbody>	 
 
-			</table>   
+			</table>
 
     	</div>
 

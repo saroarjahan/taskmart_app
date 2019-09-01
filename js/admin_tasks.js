@@ -30,6 +30,7 @@ var app = new Vue({
     taskid:'empty',
     completion_code:'',
     loginhide:true,
+    sum:'',
   },
   mounted () {
       //Get User ALl events druing initial load
@@ -50,6 +51,8 @@ var app = new Vue({
       if (this.completion_code) {
         this.loginUrl='http://'+location.hostname+"/auth/login.php"+"/?completion_code="+this.completion_code;
       }
+
+
 
       
   },
@@ -109,7 +112,33 @@ setInterval(function(){
 
 setTimeout(function(){ 
   var element = document.getElementById("myDIV");
-  element.classList.remove("hide"); 
+  element.classList.remove("hide");
+
 }, 250);
-  
+
+setTimeout(function(){ 
+      //calculdate sum 
+var obj = app.rewards.data;
+console.log(obj);
+
+var holder = {};
+
+obj.forEach(function(d) {
+  if (holder.hasOwnProperty(d.user_id)) {
+    holder[d.user_id] = holder[d.user_id] + parseInt(d.reward);
+  } else {
+    holder[d.user_id] = parseInt(d.reward);
+  }
+});
+
+var obj2 = [];
+
+for (var prop in holder) {
+  obj2.push({ user_id: prop, reward: holder[prop] });
+}
+
+app.sum=obj2;
+console.log(app.rewards.data);
+
+}, 1000);
 
